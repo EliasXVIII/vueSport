@@ -1,6 +1,7 @@
 <template>
   <div  class="bg-green">
     <Navbar />
+    <HikingCard />
 
      <!-- Router View -->
      <router-view/>
@@ -9,6 +10,6 @@
 
 <script setup>
 import Navbar from './components/ui/Navbar.vue'
-
+import HikingCard from './components/ui/HikingCard.vue'
 </script>
 
