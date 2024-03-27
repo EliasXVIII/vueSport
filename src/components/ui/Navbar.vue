@@ -36,9 +36,7 @@
     </nav>
   </template>
   
-  <script>
-  export default {
-    // Your script logic goes here
-  }
+  <script setup>
+  
   </script>
   
