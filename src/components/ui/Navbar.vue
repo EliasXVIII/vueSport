@@ -18,7 +18,7 @@
         <div class="hidden w-full md:flex md:items-center md:justify-center" id="navbar-default">
           <ul class="flex justify-between items-center space-x-32 p-0">
             <li>
-             
+
               <router-link to="/" class="block py-2 px-3 font-ubuntu text-white text-xl hover:bg-custom-gray hover:text-white rounded transition duration-300"><font-awesome-icon icon="home" /> Home</router-link>
             </li>
             <li>
