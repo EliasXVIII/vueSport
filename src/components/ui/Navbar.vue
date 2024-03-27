@@ -3,7 +3,7 @@
       <div class="flex justify-between items-center mx-auto p-4 h-full lg:max-w-screen-2xl">
         <!-- Logo -->
         <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="/src/assets/logo-removebg-preview.png" alt="VueSport Logo" class="w-20 h-30 object-cover ml-28">
+          <img src="/src/assets/Captura_de_pantalla_-2024-03-26_10-26-56-removebg-preview.webp" alt="VueSport Logo" class="w-20 h-30 object-cover ml-28">
         </a>
   
         <!-- Mobile menu button -->
