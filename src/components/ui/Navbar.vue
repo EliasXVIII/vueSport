@@ -54,15 +54,6 @@
           </ul>
         </div>
       </div>
-<<<<<<< HEAD
-    </nav>
-  </template>
-  
-  <script setup>
-  
-  </script>
-  
-=======
 
       <!-- Star icon always visible -->
       <font-awesome-icon :icon="['far', 'star']" class="text-white fa-2x md:block mx-24"/>
@@ -91,4 +82,3 @@ const toggleMenu = () => {
   height: 70vh;
 }
 </style>
->>>>>>> dev

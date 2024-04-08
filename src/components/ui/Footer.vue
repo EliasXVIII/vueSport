@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-<template>
-
-</template>
-
-<script setup >
-
-</script>
-
-<style sccoped>
-</style>
-=======
 
 <template>
     
@@ -101,4 +89,3 @@ export default {
   // Your script logic goes here
 }
 </script>
->>>>>>> dev
