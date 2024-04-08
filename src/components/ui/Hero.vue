@@ -1,16 +1,20 @@
 <template>
   <div class="cardhero">
-    <div class="cardhero__Hiking">
+    <div class="cardhero__Hiking" @click="showHiking">
       <img class="cardhero__imagen" src="/src/assets/images/hiking7.jpg" alt="">
       <h3>Hiking</h3>
     </div>
-    <div class="cardhero__Biking">
+    <div class="cardhero__Biking" @click="showBiking">
       <img class="cardhero__imagen" src="/src/assets/images/biking7.jpg" alt="">
       <h3>Biking</h3>
     </div>
   </div>
   <div class="cardhero__linea"></div> <!-- La línea debe estar fuera del contenedor flex -->
 </template>
+
+<script setup>
+
+</script>
 
 <style scoped>
 .cardhero {
