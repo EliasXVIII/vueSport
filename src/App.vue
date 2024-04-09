@@ -3,7 +3,7 @@
   <div>
   
     <Navbar/>
-    <!-- <GoogleMap/> -->
+     <GoogleMap/> 
      <!-- Router View -->
      <router-view></router-view>
     <Footer/>
