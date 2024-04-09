@@ -1,13 +1,13 @@
 <!-- App.vue -->
 <template>
   <div>
-   
+  
     <Navbar/>
     <GoogleMap/>
-     <!-- Router View -->
-     <router-view></router-view>
+      <!-- Router View -->
+      <router-view></router-view>
     <Footer/>
-   
+  
   </div>
 </template>
 
