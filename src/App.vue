@@ -3,10 +3,16 @@
   <div>
   
     <Navbar/>
+<<<<<<< HEAD
     <Hero/>
     <GoogleMap/>
       <!-- Router View -->
       <router-view></router-view>
+=======
+    <!-- <GoogleMap/> -->
+     <!-- Router View -->
+     <router-view></router-view>
+>>>>>>> abderrahmane
     <Footer/>
   
   </div>

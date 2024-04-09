@@ -1,19 +1,36 @@
 <template>
   <div class="cardhero">
     <div class="cardhero__Hiking" @click="showHiking">
-      <img class="cardhero__imagen" src="/src/assets/images/hiking7.jpg" alt="">
-      <h3>Hiking</h3>
+      <router-link to="/hiking">
+        <img class="cardhero__imagen" src="../../../src/assets/images/hiking7.jpg" alt="">
+        <h3>Hiking</h3>
+      </router-link>
     </div>
     <div class="cardhero__Biking" @click="showBiking">
-      <img class="cardhero__imagen" src="/src/assets/images/biking7.jpg" alt="">
-      <h3>Biking</h3>
+      <router-link to="/biking">
+        <img class="cardhero__imagen" src="../../../src/assets/images/biking7.jpg" alt="">
+        <h3>Biking</h3>
+      </router-link>
     </div>
   </div>
   <div class="cardhero__linea"></div> <!-- La línea debe estar fuera del contenedor flex -->
+  
+  <!-- Renderizar la vista correspondiente -->
+  <router-view></router-view>
 </template>
 
 <script setup>
+import { useRouter } from 'vue-router';
 
+const router = useRouter();
+
+const showHiking = () => {
+  router.push('/hiking'); // Navegar a la vista de senderismo
+};
+
+const showBiking = () => {
+  router.push('/biking'); // Navegar a la vista de ciclismo
+};
 </script>
 
 <style scoped>
