@@ -1,0 +1,37 @@
+{
+  "fields": [
+    { "type": "int", "id": "_id" },
+    { "type": "numeric", "id": "UDALERRIA_KODEA/COD_MUNICIPIO" },
+    { "type": "text", "id": "UDALERRIA/MUNICIPIO" },
+    { "type": "text", "id": "ESKUALDEA/COMARCA" },
+    { "type": "text", "id": "ZIRKUITOA_EU/CIRCUITO_EU" },
+    { "type": "text", "id": "ZIRKUITOA_CAS/CIRCUITO_CAS" },
+    { "type": "text", "id": "MOTA/TIPO" },
+    { "type": "text", "id": "KODEA/CODIGO" },
+    { "type": "text", "id": "IZENA/NOMBRE" },
+    { "type": "text", "id": "ERAGILE ARDURADUN/PROMOTOR RESPONSABLE" },
+    { "type": "text", "id": "IRTEERA/SALIDA" },
+    { "type": "text", "id": "HELDUERA/LLEGADA" },
+    { "type": "text", "id": "UTM X" },
+    { "type": "text", "id": "UTM Y" },
+    { "type": "text", "id": "latitude" },
+    { "type": "text", "id": "longitude" },
+    { "type": "text", "id": "IBILBIDEA/RECORRIDO" },
+    { "type": "text", "id": "ZAILTASUNA/DIFICULTAD" },
+    { "type": "text", "id": "LUZERA (KM)/LONGITUD (KM)" },
+    {
+      "type": "text",
+      "id": "MAILA-ALDAKETA METATUA (M)/DESNIVEL ACUMULADO (M)"
+    },
+    { "type": "text", "id": "DENBORA (OO:MM)/DURACION (HH:MM)" },
+    { "type": "text", "id": "SEGURTASUNA/SEGURIDAD" },
+    { "type": "text", "id": "IRISGARRITASUNA/ACCESIBILIDAD" },
+    { "type": "text", "id": "IBILBIDEEKIN LOTURA/ENLACE CIRCUITOS" },
+    { "type": "text", "id": "ITURRIAK/FUENTES" },
+    { "type": "text", "id": "ESERLEKUAK/BANCOS" },
+    { "type": "text", "id": "KOMUNAK/ASEOS" },
+    { "type": "text", "id": "ATERPEA/COBIJO" },
+    { "type": "text", "id": "URLA/URL" }
+  ]
+ 
+}
