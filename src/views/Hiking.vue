@@ -1,18 +1,27 @@
 <template>
-  <figure class="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
-    <a href="#">
-      <img class="rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-3.png" alt="image description">
-    </a>
-    <figcaption class="absolute px-4 text-lg text-white bottom-6">
-        <p>Do you want to get notified when a new component is added to Flowbite?</p>
+  <figure class="relative flex flex-col items-center">
+    <img class="rounded-t-lg" src="/src/assets/Card-Image/prueba img.png" alt="" style="width: 100%;height: 20rem;" />
+    <figcaption class="absolute text-6xl font-bold text-white top-0 left-0 right-0 flex items-center justify-center h-full" style="font-family: 'Ubuntu', sans-serif;">
+      <p>HIKING</p>
     </figcaption>
   </figure>
-  </template>
-  
-  <style scoped>
-  .rounded-lg{
-    max-width: 1200px; /* Establece un ancho máximo para el contenedor */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
-  
-  }
-  </style>
+
+
+  <form class="max-w-sm mt-4 mx-auto ">
+  <div class="mb-5">
+    <label for="text" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Where?</label>
+    <input type="text" id="text" class="shadow-sm bg-gray-200 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"  required />
+  </div>
+  <div class="mb-5">
+    <label for="text" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Choose Distance</label>
+    <input type="text" id="text" class="shadow-sm bg-gray-200 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" required />
+  </div>
+  <div style="margin-bottom: 20px;display: flex; justify-content: center;">
+  <button type="submit" class="text-white bg-gray-500 hover:bg-gray-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-9 py-2.5 text-center dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800  " >Search</button>
+</div>
+</form>
+
+
+</template>
+
+
