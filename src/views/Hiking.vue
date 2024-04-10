@@ -22,6 +22,39 @@
 </form>
 
 
+  <div>
+    <ul>
+      <li v-for="field in fields" :key="field.id">{{ field.id }}</li>
+    </ul>
+  </div>
 </template>
+
+<script>
+import { ref, onMounted } from 'vue';
+import axios from 'axios';
+
+export default {
+  setup() {
+    const fields = ref([]);
+
+    onMounted(async () => {
+      try {
+        const response = await axios.get('http://localhost:3000/fields');
+        console.log(response)
+        fields.value = response.data;
+      } catch (error) {
+        console.error('Error fetching posts:', error);
+      }
+    });
+
+    return {
+      fields
+    };
+  }
+};
+</script>
+
+
+
 
 
