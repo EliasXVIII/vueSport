@@ -17,6 +17,7 @@
     "axios": "^1.6.8",
     "devextreme": "^23.2.5",
     "devextreme-vue": "^23.2.5",
+    "json-server": "^1.0.0-alpha.23",
     "mapbox-gl": "^3.2.0",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0",

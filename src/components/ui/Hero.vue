@@ -3,13 +3,13 @@
     <div class="cardhero__Hiking" @click="showHiking">
       <router-link to="/hiking">
         <img class="cardhero__imagen" src="../../../src/assets/images/hiking7.jpg" alt="">
-        <h3>Hiking</h3>
+        <h3 ref="Hiking" @mouseover="scale" @mouseleave="unscale">Hiking</h3>
       </router-link>
     </div>
-    <div class="cardhero__Biking" @click="showBiking">
-      <router-link to="/biking">
+    <div class="cardhero__Biking"  @click="showBiking">
+      <router-link to="/biking" >
         <img class="cardhero__imagen" src="../../../src/assets/images/biking7.jpg" alt="">
-        <h3>Biking</h3>
+        <h3 ref="Biking" @mouseover="scale" @mouseleave="unscale">Biking</h3>
       </router-link>
     </div>
   </div>
@@ -21,8 +21,12 @@
 
 <script setup>
 import { useRouter } from 'vue-router';
+import { ref } from 'vue';
 
 const router = useRouter();
+
+const Biking = ref(null);
+const Hiking = ref(null);
 
 const showHiking = () => {
   router.push('/hiking'); // Navegar a la vista de senderismo
@@ -31,26 +35,44 @@ const showHiking = () => {
 const showBiking = () => {
   router.push('/biking'); // Navegar a la vista de ciclismo
 };
+
+const scale = () => {
+  if (Biking.value) {
+    Biking.value.style.transform = 'scale(1.2)';
+  }
+  if (Hiking.value) {
+    Hiking.value.style.transform = 'scale(1.2)';
+  }
+};
+
+const unscale = () => {
+  if (Biking.value) {
+    Biking.value.style.transform = 'scale(1)';
+  }
+  if (Hiking.value) {
+    Hiking.value.style.transform = 'scale(1)';
+  }
+};
 </script>
 
-<style scoped>
+<style>
 .cardhero {
   display: flex;
-  justify-content: space-between; /* Distribuye uniformemente las tarjetas */
-  background-color: #A6A485; /* Color de fondo */
+  justify-content: space-between;
+  background-color: #A6A485;
 }
 
 .cardhero__Hiking,
 .cardhero__Biking {
-  flex: 1; /* Ambas imágenes ocuparán el mismo ancho */
+  flex: 1;
   position: relative;
-  margin: 1rem; /* Margen alrededor de las imágenes */
+  margin: 1rem;
 }
 
 .cardhero__imagen {
-  width: 100%; /* Para asegurar que las imágenes ocupen todo el ancho del contenedor */
-  height: auto; /* Para mantener la proporción de la imagen */
-  margin-bottom: 1rem; /* Margen negativo para reducir el espacio entre las tarjetas */
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
 }
 
 .cardhero__Hiking h3,
@@ -60,14 +82,17 @@ const showBiking = () => {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-size: 3rem; /* Tamaño de fuente 3rem */
-  color: white; /* Color blanco para el texto */
-  font-weight: bold; /* Texto más gordo */
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+  transform-origin: center; /* Set transform origin to center */
 }
 
 .cardhero__linea {
   width: 100%;
   height: 1rem;
-  background-color: #3F402B; /* Color de la línea */
+  background-color: #3F402B;
 }
 </style>
+
