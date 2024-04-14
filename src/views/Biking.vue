@@ -13,7 +13,10 @@
     </div>
   </div>
 
-  <!-- Filters for distance and difficulty -->
+
+<div class="grid grid-cols-2 gap-4">
+  <div class="p-4">
+    <!-- Filters for distance and difficulty -->
   <div class="max-w-sm mx-auto relative z-20">
     <div class="mb-5">
       <label for="distance" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Max Distance (km):</label>
@@ -30,6 +33,14 @@
       </select>
     </div>
   </div>
+  </div>
+  <div class="p-4">
+    <GoogleMap/>
+  </div>
+</div>
+
+
+  
 
   <!-- Displaying filtered routes -->
   <div class="routes container mx-auto mt-10">
@@ -46,6 +57,7 @@
 
 <script setup>
 import { ref, computed, onMounted } from 'vue';
+import GoogleMap from '../components/common/GoogleMap.vue';
 
 // Reactive state for storing the complete route data
 const routes = ref([]);
@@ -72,6 +84,7 @@ const filteredRoutes = computed(() => {
   return routes.value.filter(route => {
     const matchesDistance = filterDistance.value ? route['LUZERA (KM)/LONGITUD (KM)'] <= filterDistance.value : true;
     const matchesDifficulty = filterDifficulty.value ? route['ZAILTASUNA/DIFICULTAD'].includes(filterDifficulty.value) : true;
+    //filterDifficulty.value no es null, undefined, 0, false, o una cadena vacía
     return matchesDistance && matchesDifficulty;
   });
 });
