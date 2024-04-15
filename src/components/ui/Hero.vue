@@ -1,0 +1,98 @@
+<template>
+  <div class="cardhero">
+    <div class="cardhero__Hiking" @click="showHiking">
+      <router-link to="/hiking">
+        <img class="cardhero__imagen" src="../../../src/assets/images/hiking7.jpg" alt="">
+        <h3 ref="Hiking" @mouseover="scale" @mouseleave="unscale">Hiking</h3>
+      </router-link>
+    </div>
+    <div class="cardhero__Biking"  @click="showBiking">
+      <router-link to="/biking" >
+        <img class="cardhero__imagen" src="../../../src/assets/images/biking7.jpg" alt="">
+        <h3 ref="Biking" @mouseover="scale" @mouseleave="unscale">Biking</h3>
+      </router-link>
+    </div>
+  </div>
+  <div class="cardhero__linea"></div> <!-- La línea debe estar fuera del contenedor flex -->
+  
+  <!-- Renderizar la vista correspondiente -->
+  <router-view></router-view>
+</template>
+
+<script setup>
+import { useRouter } from 'vue-router';
+import { ref } from 'vue';
+
+const router = useRouter();
+
+const Biking = ref(null);
+const Hiking = ref(null);
+
+const showHiking = () => {
+  router.push('/hiking'); // Navegar a la vista de senderismo
+};
+
+const showBiking = () => {
+  router.push('/biking'); // Navegar a la vista de ciclismo
+};
+
+const scale = () => {
+  if (Biking.value) {
+    Biking.value.style.transform = 'scale(1.2)';
+  }
+  if (Hiking.value) {
+    Hiking.value.style.transform = 'scale(1.2)';
+  }
+};
+
+const unscale = () => {
+  if (Biking.value) {
+    Biking.value.style.transform = 'scale(1)';
+  }
+  if (Hiking.value) {
+    Hiking.value.style.transform = 'scale(1)';
+  }
+};
+</script>
+
+<style>
+.cardhero {
+  display: flex;
+  justify-content: space-between;
+  background-color: #A6A485;
+}
+
+.cardhero__Hiking,
+.cardhero__Biking {
+  flex: 1;
+  position: relative;
+  margin: 1rem;
+}
+
+.cardhero__imagen {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.cardhero__Hiking h3,
+.cardhero__Biking h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+  transform-origin: center; /* Set transform origin to center */
+}
+
+.cardhero__linea {
+  width: 100%;
+  height: 1rem;
+  background-color: #3F402B;
+}
+</style>
+

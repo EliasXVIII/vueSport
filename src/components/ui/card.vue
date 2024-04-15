@@ -1,23 +1,44 @@
 <template>
-    
-
-<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-12">
-    <a href="#">
-        <img class="rounded-t-lg" src="" alt="" />
-    </a>
-    <div class="p-5">
-        <a href="#">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Rutas de sendero</h5>
-        </a>
-        <!--<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>-->
-        <!--<a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Read more
-             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-            </svg>
-        </a>-->
-        <button type="button" class="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">Enter</button>
+  <div class="max-w-sm bg-custom-oscuro border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-12 mr-10%">
+    <img src="/src/assets/images/hiking6.jpg" alt="" class="mt-2 mb-1 w-full max-w-xs h-auto mx-auto my-auto"> <!-- Centrar la imagen -->
+    <div class="p-5 flex flex-col items-center">
+      <a href="#">
+        <h5 class="mb-4 text-2xl font-bold tracking-tight text-white dark:text-white">Muskiz-Pobeña</h5> <!-- Aumentar espacio entre título y botón -->
+      </a>
+      <button type="button" @click="handleButtonClick" class="text-white hover:text-black border border-white hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-2 mt-4 dark:border-gray-600 dark:text-black dark:hover:text-black dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+        Enter
+      </button>
+      <p v-if="errorMessage" class="text-red-500">{{ errorMessage }}</p>
     </div>
-</div>
-
+  </div>
 </template>
+
+
+
+  
+  <script>
+  import { defineComponent } from 'vue';
+  
+  export default defineComponent({
+    props: {
+      Rutas__sendero: String,
+      imagePath: String,
+    },
+    data() {
+      return {
+        errorMessage: '',
+      };
+    },
+    methods: {
+      handleButtonClick() {
+        // Lógica para manejar el clic en el botón
+        console.log('Button clicked!');
+      },
+      handleImageError() {
+        // Manejar errores de carga de la imagen
+        this.errorMessage = 'Error al cargar la imagen';
+      },
+    },
+  });
+  </script>
+  

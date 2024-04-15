@@ -9,6 +9,7 @@ module.exports = {
       backgroundColor: {
         'custom-gray': '#A6A485',
         'custom-green': '#3F402B',
+        'custom-oscuro' : '#3F402B'
         // Add your custom background color here
       },
       fontFamily: {
