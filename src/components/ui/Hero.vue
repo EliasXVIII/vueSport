@@ -2,14 +2,14 @@
   <div class="cardhero">
     <div class="cardhero__Hiking" @click="showHiking">
       <router-link to="/hiking">
-        <img class="cardhero__imagen" src="../../../src/assets/images/hiking7.jpg" alt="" ref="HikingImage" @mouseover="scaleElement($refs.HikingImage, $refs.HikingTitle)" @mouseleave="unscaleElement($refs.HikingImage, $refs.HikingTitle)">
-        <h3 ref="HikingTitle" class="cardhero__title">Hiking</h3>
+        <img class="cardhero__imagen" src="../../../src/assets/images/hiking7.jpg" alt="" ref="HikingImage" @mouseover="scaleElement($refs.HikingImage)" @mouseleave="unscaleElement($refs.HikingImage)">
+        <h3 class="cardhero__title">Hiking</h3>
       </router-link>
     </div>
     <div class="cardhero__Biking"  @click="showBiking">
       <router-link to="/biking" >
-        <img class="cardhero__imagen" src="../../../src/assets/images/biking7.jpg" alt="" ref="BikingImage" @mouseover="scaleElement($refs.BikingImage, $refs.BikingTitle)" @mouseleave="unscaleElement($refs.BikingImage, $refs.BikingTitle)">
-        <h3 ref="BikingTitle" class="cardhero__title">Biking</h3>
+        <img class="cardhero__imagen" src="../../../src/assets/images/biking7.jpg" alt="" ref="BikingImage" @mouseover="scaleElement($refs.BikingImage)" @mouseleave="unscaleElement($refs.BikingImage)">
+        <h3 class="cardhero__title">Biking</h3>
       </router-link>
     </div>
   </div>
@@ -20,7 +20,6 @@
 
 <script setup>
 import { useRouter } from 'vue-router';
-import { ref } from 'vue';
 
 const router = useRouter();
 
@@ -32,14 +31,14 @@ const showBiking = () => {
   router.push('/biking'); 
 };
 
-const scaleElement = (imageRef, titleRef) => {
+const scaleElement = (imageRef) => {
+  imageRef.style.transition='transform 0,3 ease';
   imageRef.style.transform = 'scale(1.05)';
-  titleRef.style.transform = 'scale(1.2)';
 };
 
-const unscaleElement = (imageRef, titleRef) => {
+const unscaleElement = (imageRef) => {
+  imageRef.style.transition='transform 0,3 ease';
   imageRef.style.transform = 'scale(1)';
-  titleRef.style.transform = 'scale(1)';
 };
 </script>
 

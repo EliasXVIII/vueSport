@@ -2,7 +2,7 @@
   <div class="relative">
     <!-- Fixed image container -->
     <div class="w-full h-50vh z-0">
-      <img class="w-full h-60 object-cover" src="/src/assets/Card-Image/prueba img.png" alt="Biking Image" />
+      <img class="w-full h-60 object-cover" src="../assets/images/biking2.jpg" alt="Biking Image" />
     </div>
 
     <!-- Text container overlapping the image -->
