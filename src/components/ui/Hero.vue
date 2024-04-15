@@ -2,20 +2,19 @@
   <div class="cardhero">
     <div class="cardhero__Hiking" @click="showHiking">
       <router-link to="/hiking">
-        <img class="cardhero__imagen" src="../../../src/assets/images/hiking7.jpg" alt="">
-        <h3 ref="Hiking" @mouseover="scale" @mouseleave="unscale">Hiking</h3>
+        <img class="cardhero__imagen" src="../../../src/assets/images/hiking7.jpg" alt="" ref="HikingImage" @mouseover="scaleElement($refs.HikingImage, $refs.HikingTitle)" @mouseleave="unscaleElement($refs.HikingImage, $refs.HikingTitle)">
+        <h3 ref="HikingTitle" class="cardhero__title">Hiking</h3>
       </router-link>
     </div>
     <div class="cardhero__Biking"  @click="showBiking">
       <router-link to="/biking" >
-        <img class="cardhero__imagen" src="../../../src/assets/images/biking7.jpg" alt="">
-        <h3 ref="Biking" @mouseover="scale" @mouseleave="unscale">Biking</h3>
+        <img class="cardhero__imagen" src="../../../src/assets/images/biking7.jpg" alt="" ref="BikingImage" @mouseover="scaleElement($refs.BikingImage, $refs.BikingTitle)" @mouseleave="unscaleElement($refs.BikingImage, $refs.BikingTitle)">
+        <h3 ref="BikingTitle" class="cardhero__title">Biking</h3>
       </router-link>
     </div>
   </div>
-  <div class="cardhero__linea"></div> <!-- La línea debe estar fuera del contenedor flex -->
-  
-  <!-- Renderizar la vista correspondiente -->
+  <div class="cardhero__linea"></div> 
+
   <router-view></router-view>
 </template>
 
@@ -25,37 +24,26 @@ import { ref } from 'vue';
 
 const router = useRouter();
 
-const Biking = ref(null);
-const Hiking = ref(null);
-
 const showHiking = () => {
-  router.push('/hiking'); // Navegar a la vista de senderismo
+  router.push('/hiking'); 
 };
 
 const showBiking = () => {
-  router.push('/biking'); // Navegar a la vista de ciclismo
+  router.push('/biking'); 
 };
 
-const scale = () => {
-  if (Biking.value) {
-    Biking.value.style.transform = 'scale(1.2)';
-  }
-  if (Hiking.value) {
-    Hiking.value.style.transform = 'scale(1.2)';
-  }
+const scaleElement = (imageRef, titleRef) => {
+  imageRef.style.transform = 'scale(1.05)';
+  titleRef.style.transform = 'scale(1.2)';
 };
 
-const unscale = () => {
-  if (Biking.value) {
-    Biking.value.style.transform = 'scale(1)';
-  }
-  if (Hiking.value) {
-    Hiking.value.style.transform = 'scale(1)';
-  }
+const unscaleElement = (imageRef, titleRef) => {
+  imageRef.style.transform = 'scale(1)';
+  titleRef.style.transform = 'scale(1)';
 };
 </script>
 
-<style>
+<style scoped>
 .cardhero {
   display: flex;
   justify-content: space-between;
@@ -73,10 +61,10 @@ const unscale = () => {
   width: 100%;
   height: auto;
   margin-bottom: 1rem;
+  transition: transform 0.5s ease; 
 }
 
-.cardhero__Hiking h3,
-.cardhero__Biking h3 {
+.cardhero__title {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -85,8 +73,8 @@ const unscale = () => {
   font-size: 3rem;
   color: white;
   font-weight: bold;
-  transition: transform 0.3s ease;
-  transform-origin: center; /* Set transform origin to center */
+  transition: transform 0.5s ease; 
+  transform-origin: center; 
 }
 
 .cardhero__linea {
