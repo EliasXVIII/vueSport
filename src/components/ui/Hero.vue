@@ -60,7 +60,7 @@ const unscaleElement = (imageRef) => {
   width: 100%;
   height: auto;
   margin-bottom: 1rem;
-  transition: transform 0.5s ease; 
+  transition: transform 0.2s ease; 
 }
 
 .cardhero__title {
@@ -72,8 +72,8 @@ const unscaleElement = (imageRef) => {
   font-size: 3rem;
   color: white;
   font-weight: bold;
-  transition: transform 0.5s ease; 
-  transform-origin: center; 
+  transition: transform 0.2s ease; 
+   
 }
 
 .cardhero__linea {
@@ -81,5 +81,7 @@ const unscaleElement = (imageRef) => {
   height: 1rem;
   background-color: #3F402B;
 }
+
+
 </style>
 

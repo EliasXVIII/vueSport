@@ -3,12 +3,13 @@
   <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
     <Card
       v-for="route in routes"
-      :key="route.id"
-      :title="route.name"
-      :imagePath="route.image"
-      :duration="route.duration"
-      :distance="route.distance"
-      :routeUrl="route.url"
+      :key="route._id"
+      :title="route['IZENA/NOMBRE']"
+      :imagePath="route['imagePath']"
+      :duration="route['DENBORA (OO:MM)/DURACION (HH:MM)']"
+      :distance="route['LUZERA (KM)/LONGITUD (KM)']"
+      :difficulty="route['ZAILTASUNA/DIFICULTAD']"
+      :routeUrl="route['URLA/URL']"
       class="h-auto max-w-full rounded-lg"
     />
   </div>
