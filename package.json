@@ -17,7 +17,6 @@
     "axios": "^1.6.8",
     "devextreme": "^23.2.5",
     "devextreme-vue": "^23.2.5",
-    "json-server": "^1.0.0-alpha.23",
     "mapbox-gl": "^3.2.0",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0",
@@ -26,6 +25,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
     "autoprefixer": "^10.4.19",
+    "json-server": "^1.0.0-alpha.23",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.1",
     "vite": "^5.2.0"

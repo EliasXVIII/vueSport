@@ -6936,7 +6936,8 @@
       "HELDUERA/LLEGADA": "BARRIO LIBAO (ARRIETA)",
       "_id": 239,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/104",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "IMAGEN_CARTA":"/src/assets/Card-Image/Imagen_hiking_id239.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -6967,7 +6968,8 @@
       "HELDUERA/LLEGADA": "BARRIO ERGOIEN (GAMIZ-FIKA)",
       "_id": 240,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/105",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "IMAGEN_CARTA":"/src/assets/Card-Image/Imagen_hiking_id240.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -6998,7 +7000,8 @@
       "HELDUERA/LLEGADA": "IGLESIA DE SAN MARTÍN, BARRIO FIKA",
       "_id": 241,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/106",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "IMAGEN_CARTA":"/src/assets/Card-Image/Imagen_hiking_id241.png"
     }
   ]
 }
