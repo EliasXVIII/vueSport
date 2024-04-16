@@ -2,20 +2,19 @@
   <div class="cardhero">
     <div class="cardhero__Hiking" @click="showHiking">
       <router-link to="/hiking">
-        <img class="cardhero__imagen" src="../../../src/assets/images/hiking7.jpg" alt="">
-        <h3>Hiking</h3>
+        <img class="cardhero__imagen" src="../../../src/assets/images/hiking7.jpg" alt="" ref="HikingImage" @mouseover="scaleElement($refs.HikingImage)" @mouseleave="unscaleElement($refs.HikingImage)">
+        <h3 class="cardhero__title">Hiking</h3>
       </router-link>
     </div>
-    <div class="cardhero__Biking" @click="showBiking">
-      <router-link to="/biking">
-        <img class="cardhero__imagen" src="../../../src/assets/images/biking7.jpg" alt="">
-        <h3>Biking</h3>
+    <div class="cardhero__Biking"  @click="showBiking">
+      <router-link to="/biking" >
+        <img class="cardhero__imagen" src="../../../src/assets/images/biking7.jpg" alt="" ref="BikingImage" @mouseover="scaleElement($refs.BikingImage)" @mouseleave="unscaleElement($refs.BikingImage)">
+        <h3 class="cardhero__title">Biking</h3>
       </router-link>
     </div>
   </div>
-  <div class="cardhero__linea"></div> <!-- La línea debe estar fuera del contenedor flex -->
-  
-  <!-- Renderizar la vista correspondiente -->
+  <div class="cardhero__linea"></div> 
+
   <router-view></router-view>
 </template>
 
@@ -25,49 +24,62 @@ import { useRouter } from 'vue-router';
 const router = useRouter();
 
 const showHiking = () => {
-  router.push('/hiking'); // Navegar a la vista de senderismo
+  router.push('/hiking'); 
 };
 
 const showBiking = () => {
-  router.push('/biking'); // Navegar a la vista de ciclismo
+  router.push('/biking'); 
+};
+
+const scaleElement = (imageRef) => {
+  imageRef.style.transition='transform 0,3 ease';
+  imageRef.style.transform = 'scale(1.05)';
+};
+
+const unscaleElement = (imageRef) => {
+  imageRef.style.transition='transform 0,3 ease';
+  imageRef.style.transform = 'scale(1)';
 };
 </script>
 
 <style scoped>
 .cardhero {
   display: flex;
-  justify-content: space-between; /* Distribuye uniformemente las tarjetas */
-  background-color: #A6A485; /* Color de fondo */
+  justify-content: space-between;
+  background-color: #A6A485;
 }
 
 .cardhero__Hiking,
 .cardhero__Biking {
-  flex: 1; /* Ambas imágenes ocuparán el mismo ancho */
+  flex: 1;
   position: relative;
-  margin: 1rem; /* Margen alrededor de las imágenes */
+  margin: 1rem;
 }
 
 .cardhero__imagen {
-  width: 100%; /* Para asegurar que las imágenes ocupen todo el ancho del contenedor */
-  height: auto; /* Para mantener la proporción de la imagen */
-  margin-bottom: 1rem; /* Margen negativo para reducir el espacio entre las tarjetas */
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  transition: transform 0.5s ease; 
 }
 
-.cardhero__Hiking h3,
-.cardhero__Biking h3 {
+.cardhero__title {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-size: 3rem; /* Tamaño de fuente 3rem */
-  color: white; /* Color blanco para el texto */
-  font-weight: bold; /* Texto más gordo */
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+  transition: transform 0.5s ease; 
+  transform-origin: center; 
 }
 
 .cardhero__linea {
   width: 100%;
   height: 1rem;
-  background-color: #3F402B; /* Color de la línea */
+  background-color: #3F402B;
 }
 </style>
+
