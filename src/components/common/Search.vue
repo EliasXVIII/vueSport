@@ -30,25 +30,6 @@ const fetchDataBiker = async () => {
     console.error('There has been a problem with your fetch operation:', error);
   }
 };
-// Método para obtener los datos de rutas de senderismo del servidor
-const fetchDataHiker=async () =>{
-  try{
-    const response=await fetch('http://localhost:3000/records_senderos');
-    if(!response.ok){
-      throw new Error ('Network response was not ok');
-    }
-    const datosCompletos_Hiker=await response.json();
-    datosCompletos_Hiker.forEach(dato=>{
-      duraciones_Hiker.value.push(dato['DENBORA (OO:MM)/DURACION (HH:MM)']);
-      distancias_Hiker.value.push(dato['LUZERA (KM)/LONGITUD (KM)']);
-    })
-  } catch (error){
-    console.error('There has been a problem with your fetch operation:', error);
-  }
-  
-    
-
-}
 
 // Ejecutar fetchData cuando el componente se monte
 onMounted(()=>{
