@@ -33,7 +33,6 @@ const fetchDataBiker = async () => {
 
 // Ejecutar fetchData cuando el componente se monte
 onMounted(()=>{
-  fetchDataHiker();
   fetchDataBiker();
 })
 </script>
