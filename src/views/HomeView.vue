@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>This is the Home View</h1>
-    <p>Content coming soon...</p>
+  
     <Hero/>
     <Card/>
   </div>
