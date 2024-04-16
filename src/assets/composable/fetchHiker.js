@@ -17,6 +17,7 @@ export default function useRoutes() {
       }
       const datosCompletos_Hiker = await response.json();
       routes.value = datosCompletos_Hiker; // Assign the fetched data to the routes reactive reference
+      console.log(datosCompletos_Hiker)
     } catch (error) {
       console.error('There has been a problem with your fetch operation:', error);
     }
