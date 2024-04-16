@@ -1819,7 +1819,7 @@
       "_id": 72,
       "URLA/URL": "http://www.markina-xemein.eus/es-ES/Turismo/rutas/PR%20BI%2023-PR%20BI%2024.pdf",
       "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
-      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id072.png"
+      "imagePath":"/src/assets/Card-Image/Imgaen_hiking_id072.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2651,7 +2651,7 @@
       "_id": 97,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/40",
       "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
-      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id097.png"
+      "imagePath":"/src/assets/Card-Image/Imgen_hiking_id097.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",

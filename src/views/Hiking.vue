@@ -17,7 +17,7 @@
 
 <div class="grid grid-cols-2 gap-4">
   <div class="p-4">
-    <SearchFilter/>
+    <SearchFilterHiking/>
   </div>
   <div class="p-4">
     <GoogleMap/>
@@ -30,7 +30,7 @@
 
 <script setup>
 import GoogleMap from '../components/common/GoogleMap.vue';
-import SearchFilter from './SearchFilter.vue';
+import SearchFilterHiking from './SearchFilterHiking.vue';
 
 </script>
 
