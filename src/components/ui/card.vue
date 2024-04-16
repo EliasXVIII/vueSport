@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-sm bg-custom-oscuro border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-12 mr-10%">
-    <img src="/src/assets/images/hiking6.jpg" alt="" class="mt-2 mb-1 w-full max-w-xs h-auto mx-auto my-auto"> <!-- Centrar la imagen -->
+    <img src="./src/assets/images/hiking4.jpg" alt="" class="mt-2 mb-1 w-full max-w-xs h-auto mx-auto my-auto"> <!-- Centrar la imagen -->
     <div class="p-5 flex flex-col items-center">
       <a href="#">
         <h5 class="mb-4 text-2xl font-bold tracking-tight text-white dark:text-white">Muskiz-Pobeña</h5> <!-- Aumentar espacio entre título y botón -->
