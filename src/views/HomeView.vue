@@ -1,13 +1,12 @@
 <template>
   <div>
-  
     <Hero/>
-    <Card/>
+    <MostRated/>
   </div>
 </template>
 
 <script setup>
-import Card from '../components/ui/card.vue';
 import Hero from '/src/components/ui/Hero.vue'
+import MostRated from '../components/ui/MostRated.vue'
 // Component logic goes here
 </script>
