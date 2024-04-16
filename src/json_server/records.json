@@ -24,7 +24,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 13,
       "longitude IRTEERA/SALIDA": "502019,9045",
       "longitude HELDUERA/LLEGADA": "490869,7502",
-      "_id": 1
+      "_id": 1,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id001.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4796610,804",
@@ -50,7 +51,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 71,
       "longitude IRTEERA/SALIDA": "490877,8438",
       "longitude HELDUERA/LLEGADA": "490877,8438",
-      "_id": 2
+      "_id": 2,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id002.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4799025,732",
@@ -76,7 +78,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 44,
       "longitude IRTEERA/SALIDA": "499245,9537",
       "longitude HELDUERA/LLEGADA": "499797,3579",
-      "_id": 3
+      "_id": 3,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id003.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4793073,112",
@@ -102,7 +105,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 13,
       "longitude IRTEERA/SALIDA": "501411,8025",
       "longitude HELDUERA/LLEGADA": "501079,0038",
-      "_id": 4
+      "_id": 4,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id004.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4784552,489",
@@ -128,7 +132,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 45,
       "longitude IRTEERA/SALIDA": "497977,7008",
       "longitude HELDUERA/LLEGADA": "489180,1491",
-      "_id": 5
+      "_id": 5,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id005.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4783781,03",
@@ -154,7 +159,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 96,
       "longitude IRTEERA/SALIDA": "489172,0438",
       "longitude HELDUERA/LLEGADA": "485937,459",
-      "_id": 6
+      "_id": 6,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id006.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4789222,285",
@@ -180,7 +186,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 15,
       "longitude IRTEERA/SALIDA": "508948,1936",
       "longitude HELDUERA/LLEGADA": "506315,3538",
-      "_id": 7
+      "_id": 7,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id007.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4787600,739",
@@ -206,7 +213,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 11,
       "longitude IRTEERA/SALIDA": "509065,695",
       "longitude HELDUERA/LLEGADA": "506186,9525",
-      "_id": 8
+      "_id": 8,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id008.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4793865,268",
@@ -232,7 +240,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 57,
       "longitude IRTEERA/SALIDA": "540125,8647",
       "longitude HELDUERA/LLEGADA": "535425,0087",
-      "_id": 9
+      "_id": 9,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id009.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4804390,975",
@@ -258,7 +267,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 906,
       "longitude IRTEERA/SALIDA": "526332,2798",
       "longitude HELDUERA/LLEGADA": "524800,0873",
-      "_id": 10
+      "_id": 10,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id010.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4790535,605",
@@ -284,7 +294,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 2,
       "longitude IRTEERA/SALIDA": "494526,5089",
       "longitude HELDUERA/LLEGADA": "491137,4875",
-      "_id": 11
+      "_id": 11,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id011.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4774275,179",
@@ -310,7 +321,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 24,
       "longitude IRTEERA/SALIDA": "520321,4629",
       "longitude HELDUERA/LLEGADA": "518865,7709",
-      "_id": 12
+      "_id": 12,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id012.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4776822,121",
@@ -336,7 +348,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 93,
       "longitude IRTEERA/SALIDA": "518743,4665",
       "longitude HELDUERA/LLEGADA": "520184,2941",
-      "_id": 13
+      "_id": 13,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id013.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4786750,538",
@@ -362,7 +375,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 37,
       "longitude IRTEERA/SALIDA": "490278,2733",
       "longitude HELDUERA/LLEGADA": "483994,698",
-      "_id": 14
+      "_id": 14,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id014.png"
     }
   ],
   "records_senderos": [
