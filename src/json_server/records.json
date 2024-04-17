@@ -11,7 +11,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "BARAKALDO",
       "IZENA/NOMBRE": "Ruta 1 BARAKALDO - MUSKIZ",
       "IBILBIDEA/ITINERARIO": "BARAKALDO-PORTUGALETE-PLAYA DE LA ARENA-MUSKIZ",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/1.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/fitxategiak/07/Mediateka/4_R1_Barakaldo-Muskiz_cast.pdf?hash=aeb4e1f144f0eedf6478647aab9f386d",
       "latitude": "4793695,248",
       "latitude IRTEERA/SALIDA": "4793695,248",
       "latitude GEO": "43,29608105",
@@ -24,7 +24,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 13,
       "longitude IRTEERA/SALIDA": "502019,9045",
       "longitude HELDUERA/LLEGADA": "490869,7502",
-      "_id": 1
+      "_id": 1,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id001.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4796610,804",
@@ -37,7 +38,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "MUSKIZ ",
       "IZENA/NOMBRE": "Ruta 2 MUSKIZ - ITSASLUR",
       "IBILBIDEA/ITINERARIO": "MUSKIZ - ITSASLUR-MUSKIZ",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/2.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/fitxategiak/07/Mediateka/4_R2%20CAST.pdf?hash=13f54168f63a3705a727f7d4e94853e0",
       "latitude": "4796610,804",
       "latitude IRTEERA/SALIDA": "4796610,804",
       "latitude GEO": "43,32228185",
@@ -50,7 +51,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 71,
       "longitude IRTEERA/SALIDA": "490877,8438",
       "longitude HELDUERA/LLEGADA": "490877,8438",
-      "_id": 2
+      "_id": 2,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id002.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4799025,732",
@@ -63,7 +65,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "GETXO",
       "IZENA/NOMBRE": "Ruta 3 LAS ARENAS - BOLUE",
       "IBILBIDEA/ITINERARIO": "LAS ARENAS - HUMEDAL DE BOLUE-AIBOA",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/3.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO6/Temas/2016/Bicicletas/Rutas/R3%20CAST.pdf?hash=ae8c57e7e47d9449eb02b17ec0dfa147&idioma=CA",
       "latitude": "4797071,146",
       "latitude IRTEERA/SALIDA": "4797071,146",
       "latitude GEO": "43,32648199",
@@ -76,7 +78,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 44,
       "longitude IRTEERA/SALIDA": "499245,9537",
       "longitude HELDUERA/LLEGADA": "499797,3579",
-      "_id": 3
+      "_id": 3,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id003.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4793073,112",
@@ -89,7 +92,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "BARAKALDO",
       "IZENA/NOMBRE": "Ruta 4 CRUCES - ANSIO",
       "IBILBIDEA/ITINERARIO": "CRUCES-GOROSTIZA-EL REGATO-RETUERTO-ANSIO",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/4.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO6/Temas/2016/Bicicletas/Rutas/R4%20CAST.pdf?hash=e1a3e5a558def69021643b6456562286&idioma=CA",
       "latitude": "4792240,243",
       "latitude IRTEERA/SALIDA": "4792240,243",
       "latitude GEO": "43,28298065",
@@ -102,7 +105,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 13,
       "longitude IRTEERA/SALIDA": "501411,8025",
       "longitude HELDUERA/LLEGADA": "501079,0038",
-      "_id": 4
+      "_id": 4,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id004.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4784552,489",
@@ -115,7 +119,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "GÜEÑES",
       "IZENA/NOMBRE": "Ruta 5 LA QUADRA - ZALLA",
       "IBILBIDEA/ITINERARIO": "LA CUADRA-SODUPE-GÜEÑES-ZALLA",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/5.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO6/Temas/2016/Bicicletas/Rutas/R5%20CAST.pdf?hash=fbadcc143ec52bdb7cdcadc137bf246e&idioma=CA",
       "latitude": "4785654,738",
       "latitude IRTEERA/SALIDA": "4785654,738",
       "latitude GEO": "43,22367883",
@@ -128,7 +132,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 45,
       "longitude IRTEERA/SALIDA": "497977,7008",
       "longitude HELDUERA/LLEGADA": "489180,1491",
-      "_id": 5
+      "_id": 5,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id005.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4783781,03",
@@ -141,7 +146,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "ZALLA",
       "IZENA/NOMBRE": "Ruta 6 ZALLA - LA MELLA",
       "IBILBIDEA/ITINERARIO": "ZALLA-BOLUMBURU-LA HERRERA-LA MELLA-IBARRA",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/6.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO6/Temas/2016/Bicicletas/Rutas/R6%20CAST.pdf?hash=d47bf2f8da31affca155f178aa83718b&idioma=CA",
       "latitude": "4784563,607",
       "latitude IRTEERA/SALIDA": "4784563,607",
       "latitude GEO": "43,21377852",
@@ -154,7 +159,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 96,
       "longitude IRTEERA/SALIDA": "489172,0438",
       "longitude HELDUERA/LLEGADA": "485937,459",
-      "_id": 6
+      "_id": 6,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id006.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4789222,285",
@@ -167,7 +173,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "BASAURI",
       "IZENA/NOMBRE": "Ruta 7 BASAURI - ATXURI",
       "IBILBIDEA/ITINERARIO": "BASAURI-PARQUE MONTEFUERTE OLLARGAN-OLLARGAN-LA PEÑA-PASEO DE LOS CAÑOS-ATXURI",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/7.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO6/Temas/2016/Bicicletas/Rutas/R7%20CAST.pdf?hash=9a6401b5d5539ca92a9b85328e4d80ce&idioma=CA",
       "latitude": "4787104,062",
       "latitude IRTEERA/SALIDA": "4787104,062",
       "latitude GEO": "43,23667922",
@@ -180,7 +186,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 15,
       "longitude IRTEERA/SALIDA": "508948,1936",
       "longitude HELDUERA/LLEGADA": "506315,3538",
-      "_id": 7
+      "_id": 7,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id007.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4787600,739",
@@ -193,7 +200,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "ARRIGORRIAGA ",
       "IZENA/NOMBRE": "Ruta 8 ARRIGORRIAGA - LA PEÑA",
       "IBILBIDEA/ITINERARIO": "ARRIGORRIAGA-PARQUE DE MENDIKOSOLO BARRENA-VENTA ALTA-LA PEÑA",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/8.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO6/Temas/2016/Bicicletas/Rutas/R8%20CAST.pdf?hash=cdda2d57e9fe3300f8054790bf7845f4&idioma=CA",
       "latitude": "4784238,966",
       "latitude IRTEERA/SALIDA": "4784238,966",
       "latitude GEO": "43,21087843",
@@ -206,7 +213,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 11,
       "longitude IRTEERA/SALIDA": "509065,695",
       "longitude HELDUERA/LLEGADA": "506186,9525",
-      "_id": 8
+      "_id": 8,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id008.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4793865,268",
@@ -219,7 +227,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "LEKEITIO",
       "IZENA/NOMBRE": "Ruta 9 LEKEITIO - AULESTI",
       "IBILBIDEA/ITINERARIO": "LEKEITIO-AMOROTO-GIZABURUAGA-AULESTI",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/9.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO6/Temas/2016/Bicicletas/Rutas/R9%20CAST.pdf?hash=4128f90a448bcb45f187745a72ce55a2&idioma=CA",
       "latitude": "4801421,495",
       "latitude IRTEERA/SALIDA": "4801421,495",
       "latitude GEO": "43,36458309",
@@ -232,7 +240,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 57,
       "longitude IRTEERA/SALIDA": "540125,8647",
       "longitude HELDUERA/LLEGADA": "535425,0087",
-      "_id": 9
+      "_id": 9,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id009.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4804390,975",
@@ -245,7 +254,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "FORUA",
       "IZENA/NOMBRE": "Ruta 10 FORUA - BUSTURIA",
       "IBILBIDEA/ITINERARIO": "FORUA-MURUETA-BUSTURIA-SUKARRIETA-BUSTURIA",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/10.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO6/Temas/2016/Bicicletas/Rutas/R10%20CAST.pdf?hash=42b65e8f8b41f9b853e786fef1d77e33&idioma=CA",
       "latitude": "4797788,67",
       "latitude IRTEERA/SALIDA": "4797788,67",
       "latitude GEO": "43,33248214",
@@ -258,7 +267,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 906,
       "longitude IRTEERA/SALIDA": "526332,2798",
       "longitude HELDUERA/LLEGADA": "524800,0873",
-      "_id": 10
+      "_id": 10,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id010.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4790535,605",
@@ -271,7 +281,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "ABANTO Y CIERVANA-ABANTO ZIERBENA",
       "IZENA/NOMBRE": "Ruta 11 GALLARTA - LA ACEÑA",
       "IBILBIDEA/ITINERARIO": "GALLARTA-LA ACEÑA",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/11.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO6/Temas/2016/Bicicletas/Rutas/R11%20CAST.pdf?hash=eb22c06d08e7fb0e14665d86107b7aab&idioma=CA",
       "latitude": "4796362,544",
       "latitude IRTEERA/SALIDA": "4796362,544",
       "latitude GEO": "43,32008179",
@@ -284,7 +294,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 2,
       "longitude IRTEERA/SALIDA": "494526,5089",
       "longitude HELDUERA/LLEGADA": "491137,4875",
-      "_id": 11
+      "_id": 11,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id011.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4774275,179",
@@ -297,7 +308,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "ZEANURI",
       "IZENA/NOMBRE": "Ruta 12 ZEANURI - AREATZA",
       "IBILBIDEA/ITINERARIO": "ZEANURI-AREATZA",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/12.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO6/Temas/2016/Bicicletas/Rutas/R12_Zeanuri-Areatza_cast.pdf?hash=322f27cbd735c2c2be2b688f78f4936f&idioma=CA",
       "latitude": "4771725,099",
       "latitude IRTEERA/SALIDA": "4771725,099",
       "latitude GEO": "43,09797496",
@@ -310,7 +321,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 24,
       "longitude IRTEERA/SALIDA": "520321,4629",
       "longitude HELDUERA/LLEGADA": "518865,7709",
-      "_id": 12
+      "_id": 12,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id012.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4776822,121",
@@ -323,7 +335,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "AREATZA",
       "IZENA/NOMBRE": "Ruta 13 AREATZA - DIMA",
       "IBILBIDEA/ITINERARIO": "AREATZA-ARTEA-ARANTZAZU-IGORRE-DIMA",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/13.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO6/Temas/2016/Bicicletas/Rutas/R13_Areatza-Dima_cast.pdf?hash=252cbfb902cb4868b338941860d88006&idioma=CA",
       "latitude": "4774374,791",
       "latitude IRTEERA/SALIDA": "4774374,791",
       "latitude GEO": "43,12187569",
@@ -336,7 +348,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 93,
       "longitude IRTEERA/SALIDA": "518743,4665",
       "longitude HELDUERA/LLEGADA": "520184,2941",
-      "_id": 13
+      "_id": 13,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id013.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4786750,538",
@@ -349,7 +362,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "GALDAMES",
       "IZENA/NOMBRE": "Ruta 14 GALDAMES - ARTZENTALES",
       "IBILBIDEA/ITINERARIO": "GALDAMES-SOPUERTA-ARTZENTALES",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/14.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO6/Temas/2016/Bicicletas/Rutas/R14_Galdames-Artzentales_cast.pdf?hash=a06b41d7dd552ec59ddd8c5dd27acf01&idioma=CA",
       "latitude": "4791280,866",
       "latitude IRTEERA/SALIDA": "4791280,866",
       "latitude GEO": "43,27428038",
@@ -362,7 +375,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 37,
       "longitude IRTEERA/SALIDA": "490278,2733",
       "longitude HELDUERA/LLEGADA": "483994,698",
-      "_id": 14
+      "_id": 14,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id014.png"
     }
   ],
   "records_senderos": [
@@ -1805,7 +1819,7 @@
       "_id": 72,
       "URLA/URL": "http://www.markina-xemein.eus/es-ES/Turismo/rutas/PR%20BI%2023-PR%20BI%2024.pdf",
       "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
-      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id072.png"
+      "imagePath":"/src/assets/Card-Image/Imgaen_hiking_id072.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2637,7 +2651,7 @@
       "_id": 97,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/40",
       "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
-      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id097.png"
+      "imagePath":"/src/assets/Card-Image/Imgen_hiking_id097.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",

@@ -21,7 +21,7 @@
       <div class="grid grid-cols-2 gap-4 container">
         <div class="p-4">
            <!-- Filters for distance and difficulty -->
-          <SearchFilter/>
+          <SearchFilterHiking/>
         </div>
         <div class="p-4">
           <GoogleMap/>
@@ -35,6 +35,12 @@
     </div>
   
 </template>
+
+<script setup>
+import GoogleMap from '../components/common/GoogleMap.vue';
+import SearchFilter from './SearchFilter.vue';
+
+</script>
 
 <style scoped>
   .video-container {
