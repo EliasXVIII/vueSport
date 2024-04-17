@@ -57,7 +57,7 @@ loader.importLibrary().then(() => {
     <div>
       <GoogleMap
         api-key="AIzaSyAd9UGOF21EFsSHh0UwsqYPL22Mm5KPb6k"
-        style="width: 100%; height: 70vh"
+        style="width: 60%; height: 60vh"
         mapTypeId="terrain"
         :center="center"
         :zoom="7"

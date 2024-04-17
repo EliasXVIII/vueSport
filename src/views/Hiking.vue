@@ -14,26 +14,51 @@
     </figcaption>
   </figure>
 
-
-<div class="grid grid-cols-2 gap-4">
-  <div class="p-4">
-    <SearchFilter/>
-  </div>
-  <div class="p-4">
-    <GoogleMap/>
-  </div>
-</div>
-
-
  
+  <div class="video-container">
+    <video class="background-video" autoplay loop muted>
+      <source src="/src/assets/videos/hiking4.mp4" type="video/mp4">
+      <div class="grid grid-cols-2 gap-4 container">
+        <div class="p-4">
+           <!-- Filters for distance and difficulty -->
+          <SearchFilter/>
+        </div>
+        <div class="p-4">
+          <GoogleMap/>
+        </div>
+      </div>
+    </video>
+    
+   
+      
+      
+    </div>
+  
 </template>
 
-<script setup>
-import GoogleMap from '../components/common/GoogleMap.vue';
-import SearchFilter from './SearchFilter.vue';
-
-</script>
-
 <style scoped>
-/* Add your styles here */
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure video covers entire container */
+    opacity: 0.3;
+    z-index: 0; /* Set a negative value to place it behind components */
+  }
+
+  
+
+  /* Additional styling for components if needed */
+  .p-4 {
+    /* Example: Add padding to components */
+    padding: 1rem;
+  }
 </style>
