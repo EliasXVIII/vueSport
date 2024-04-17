@@ -10,7 +10,7 @@
 <div class="grid grid-cols-2 gap-4">
   <div class="p-4">
     <!-- Filters for distance and difficulty -->
-    <SearchFilter/>
+    <SearchFilterBiking/>
   </div>
   <div class="p-4">
     <GoogleMap/>
@@ -18,25 +18,12 @@
 </div>
 
 
-  
-
-  <!-- Displaying filtered routes -->
-  <div class="routes container mx-auto mt-10">
-    <div v-for="route in filteredRoutes" :key="route._id" class="route mb-5 p-4 shadow-lg rounded-lg">
-      <h3 class="text-xl font-semibold">{{ route['IZENA/NOMBRE'] }}</h3>
-      <p>Distance: {{ route['LUZERA (KM)/LONGITUD (KM)'] }} km</p>
-      <p>Duration: {{ route['DENBORA (OO:MM)/DURACION (HH:MM)'] }}</p>
-      <p>Difficulty: {{ route['ZAILTASUNA/DIFICULTAD'] }}</p>
-      <p>Zone: {{ route['GUNEA/ZONA'] }}</p>
-      <a :href="route['URLA/URL']" target="_blank" class="text-blue-500 hover:text-blue-700">View Route</a>
-    </div>
-  </div>
 </template>
 
 <script setup>
 import { ref, computed, onMounted } from 'vue';
 import GoogleMap from '../components/common/GoogleMap.vue';
-import SearchFilter from './SearchFilter.vue';
+import SearchFilterBiking from './SearchFilterBiking.vue';
 
 // Reactive state for storing the complete route data
 const routes = ref([]);

@@ -17,8 +17,7 @@
 
 <script setup>
 import Navbar from './components/ui/Navbar.vue';
-
-import GoogleMap from './components/common/GoogleMap.vue'
-import Footer from './components/ui/Footer.vue'
+import Footer from './components/ui/Footer.vue';
 
 </script>
+
