@@ -22,7 +22,7 @@
   <router-view></router-view>
 </template>
 
-<!-- <script setup>
+ <script setup>
 import { useRouter } from 'vue-router';
 
 const router = useRouter();
@@ -44,7 +44,7 @@ const unscaleElement = (imageRef) => {
   imageRef.style.transition='transform 0,3 ease';
   imageRef.style.transform = 'scale(1)';
 };
-</script>-->
+</script>
 
 <style scoped>
 .cardhero {
