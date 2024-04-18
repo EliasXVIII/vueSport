@@ -2,12 +2,15 @@
  <template>
   <div class="max-w-sm bg-custom-oscuro border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-12 mr-10%">
     <div class="relative w-full h-0" style="padding-bottom: 100%;">
-      <img :src="imagePath" alt="Hiking route" class="absolute inset-0 w-full h-full object-cover rounded-t-lg">
-    </div>
-    <div class="p-5">
-      <a :href="routeUrl">
-        <h5 class="mb-2 text-xl font-bold tracking-tight text-white dark:text-white">{{ title }}</h5>
+     
+      <a target="_blank" :href="routeUrl">      
+        <img :src="imagePath" alt="Hiking route" class="absolute inset-0 w-full h-full object-cover rounded-t-lg">
       </a>
+      </div>
+    <div class="p-5">
+      
+        <h5 class="mb-2 text-xl font-bold tracking-tight text-white dark:text-white">{{ title }}</h5>
+      
       <p class="text-sm font-semibold text-rose-500 ">Duration aproximate: {{ duration }} Hs</p>
       <p class="text-sm font-semibold text-rose-500 ">Distance: {{ distance }} Km</p>
     </div>
