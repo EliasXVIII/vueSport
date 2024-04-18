@@ -14,26 +14,25 @@
     </figcaption>
   </figure>
 
-
-<div class="grid grid-cols-2 gap-4">
+ 
+  <div class="grid grid-cols-2 gap-4">
   <div class="p-4">
+    <!-- Filters for distance and difficulty -->
     <SearchFilterHiking/>
   </div>
   <div class="p-4">
     <GoogleMap/>
   </div>
 </div>
-
-
- 
+  
 </template>
 
 <script setup>
 import GoogleMap from '../components/common/GoogleMap.vue';
-import SearchFilterHiking from './SearchFilterHiking.vue';
+import SearchFilterHiking from './SearchFilterHiking.vue'; 
 
 </script>
 
-<style scoped>
-/* Add your styles here */
+<style>
+ 
 </style>

@@ -62,3 +62,11 @@ const filteredRoutes = computed(() => {
 // Execute fetchData when the component is mounted
 onMounted(fetchData);
 </script>
+
+<style scoped>
+.container {
+    position: relative;
+    z-index: 10; /* Higher z-index to place components above the video */
+    /* Add any other styling for your components */
+  }
+</style>
