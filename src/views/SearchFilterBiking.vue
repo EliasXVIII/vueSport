@@ -17,17 +17,24 @@
   </div>
 
    <!-- Displaying filtered routes -->
-   <div class="routes container mx-auto mt-10">
-    <div v-for="route in filteredRoutes" :key="route._id" class="route mb-5 p-4 shadow-lg rounded-lg">
-      <h3 class="text-xl font-semibold">{{ route['IZENA/NOMBRE'] }}</h3>
-      <p v-if="route['LUZERA (KM)/LONGITUD (KM)']">Distance: {{ route['LUZERA (KM)/LONGITUD (KM)'] }} km</p>
-      <p v-if="route['DENBORA (OO:MM)/DURACION (HH:MM)']">Duration: {{ route['DENBORA (OO:MM)/DURACION (HH:MM)'] }}</p>
-      <p v-if="route['ZAILTASUNA/DIFICULTAD']">Difficulty: {{ route['ZAILTASUNA/DIFICULTAD'] }}</p>
-      <a :href="route['URLA/URL']" target="_blank" class="text-blue-500 hover:text-blue-700">View Route</a>
+   <div class="flex justify-center">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-10">
+      <Card
+        v-for="route in filteredRoutes"
+        :key="route._id"
+        :title="route['IZENA/NOMBRE']"
+        :imagePath="route['imagePath']"
+        :duration="route['DENBORA (OO:MM)/DURACION (HH:MM)']"
+        :distance="route['LUZERA (KM)/LONGITUD (KM)']"
+        :difficulty="route['ZAILTASUNA/DIFICULTAD']"
+        :routeUrl="route['URLA/URL']"
+        class="h-auto max-w-full rounded-lg"
+      />
     </div>
   </div>
 </template>
 <script setup>
+import Card from '../components/ui/Card.vue';
 import { ref, computed, onMounted } from 'vue';
 // Reactive state for storing the complete route data
 const routes = ref([]);
