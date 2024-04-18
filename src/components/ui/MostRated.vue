@@ -1,10 +1,11 @@
-<template>
+
+ <template>
   <h1 class="text-4xl font-bold text-center text-custom-green mt-12" style="font-family: 'Ubuntu', sans-serif;">Most Rated Routes</h1>
 
   <div class="flex justify-center">
     <div class="grid grid-cols-2 md:grid-cols-4 gap-10">
       <Card
-        v-for="route in routes.slice(0,6)"
+        v-for="route in routes.slice(0,8)"
         :key="route._id"
         :title="route['IZENA/NOMBRE']"
         :imagePath="route['imagePath']"
@@ -16,12 +17,11 @@
       />
     </div>
   </div>
-  
 </template>
 
 
 <script setup>
 import Card from '../ui/Card.vue';
 import useRoutes from '../../assets/composable/fetchHiker';
-const { routes } = useRoutes();
+const { routes } = useRoutes(); // Destructure routes from useRoutes
 </script>
