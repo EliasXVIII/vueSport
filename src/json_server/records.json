@@ -571,7 +571,7 @@
       "_id": 32,
       "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO9/Temas/Pdf/Patrimonio_Natural/ITINERARIOS/ARMA%C3%91ON/Ruta%20por%20el%20Encinar%20de%20Sope%C3%B1a.pdf?hash=8f220690df47338fcf604663a7c4faa2&idioma=CA",
       "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
-      "imagePath":"/src/assets/Card-Image/Imagen_hiking_032.png"
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id032.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -1435,7 +1435,7 @@
       "_id": 59,
       "URLA/URL": "https://www.euskadi.eus/web01-a2ingurd/es/u95aWar/u95aPintaFicheroServlet?R01HNoPortal=true&idiomaFichero=es&codigoFichero=5427&tipoFichero=2&R01HNoPortal=true",
       "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
-      "imagePath":"/src/assets/Card-Image/Image_hiking_id059.png"
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id059.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -1467,7 +1467,7 @@
       "_id": 60,
       "URLA/URL": "http://www.alonsotegi.net/eu-ES/Albisteak/Documents/ordaola_panel_%202017%20baja.pdf",
       "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
-      "imagePath":"/src/assets/Card-Image/Image_hiking_id060.png"
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id060.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -1499,7 +1499,7 @@
       "_id": 62,
       "URLA/URL": "http://www.alonsotegi.net/eu-ES/Albisteak/Documents/ordaola_panel_%202017%20baja.pdf",
       "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
-      "imagePath":"/src/assets/Card-Image/Image_hiking_id062.png"
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id062.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -1531,7 +1531,7 @@
       "_id": 63,
       "URLA/URL": "http://www.alonsotegi.net/eu-ES/Albisteak/Documents/ordaola_panel_%202017%20baja.pdf",
       "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
-      "imagePath":"/src/assets/Card-Image/Image_hiking_id063.png"
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id063.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -1691,7 +1691,7 @@
       "_id": 68,
       "URLA/URL": "https://www.barakaldo.eus/portal/c/document_library/get_file?uuid=02747223-fff7-4655-bce5-1892d548bffe&groupId=36219",
       "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
-      "imagePath":"/src/assets/Card-Image/Image_hiking_id068.png"
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id068.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -1994,7 +1994,6 @@
       "ZIRKUITOA_CAS/CIRCUITO_CAS": "RUTA DEL COLESTEROL",
       "LUZERA (KM)/LONGITUD (KM)": "4",
       "IZENA/NOMBRE": "IURRETA-ARANDIA",
-      "ITURRIAK/FUENTES": "SI",
       "IRTEERA/SALIDA": "IURRETA",
       "latitude": "43,17447788",
       "DENBORA (OO:MM)/DURACION (HH:MM)": "1:00",
@@ -2011,7 +2010,7 @@
       "_id": 132,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/30",
       "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
-      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id0132.png"
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id132.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
