@@ -17,10 +17,12 @@
       />
     </div>
   </div>
+  <principal/>
 </template>
 
 
 <script setup>
+import principal  from './principal.vue';
 import Card from '../ui/Card.vue';
 import useRoutes from '../../assets/composable/fetchHiker';
 const { routes } = useRoutes(); // Destructure routes from useRoutes
