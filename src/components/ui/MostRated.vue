@@ -1,4 +1,5 @@
-<template>
+
+ <template>
   <h1 class="text-4xl font-bold text-center text-custom-green mt-12" style="font-family: 'Ubuntu', sans-serif;">Most Rated Routes</h1>
 
   <div class="flex justify-center">
