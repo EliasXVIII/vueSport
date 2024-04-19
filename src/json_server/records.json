@@ -410,7 +410,7 @@
       "_id": 28,
       "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO9/Temas/Pdf/Patrimonio_Natural/ITINERARIOS/ARMA%C3%91ON/GR-123_Alisedas%20del%20r%C3%ADo%20Ag%C3%BCera.pdf?hash=1bd32bf81e5ae21d85206c1e4e1cb772&idioma=CA",
       "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
-      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id028.png"
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id002.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
