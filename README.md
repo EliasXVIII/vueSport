@@ -96,11 +96,11 @@ npm run dev
 ## Collaborators
 ![LINKEDIN](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
 
-- [Elias Riquelme LinkedIn](https://www.linkedin.com/in/elias-javier-riquelme-b62655297/)
-- [Oussama](https://www.linkedin.com/in/oussama-brahmi-b1551a280/)
-- [Ana Iashvili LinkedIn](https://www.linkedin.com/in/anaiashvili/)
-- [JONATHAN](https://www.linkedin.com/in/jonathan-iba%C5%84ez-perez/)
-- [ABDERRAHMANE](https://www.linkedin.com/in/abderrahmane-hichou-95818a2ab/)
+- [Elias Javier Riquelme](https://www.linkedin.com/in/elias-javier-riquelme-b62655297/)
+- [Oussama Brahmi](https://www.linkedin.com/in/oussama-brahmi-b1551a280/)
+- [Ana Iashvili](https://www.linkedin.com/in/anaiashvili/)
+- [Jonathan Ibañez Perez](https://www.linkedin.com/in/jonathan-iba%C5%84ez-perez/)
+- [Abderrahmane Hichou](https://www.linkedin.com/in/abderrahmane-hichou-95818a2ab/)
 
 ## Contributions and suggestions
 If you have any ideas, fixes, or features you'd like to add, feel free to do so. Feel free to explore the project and let us know what you would improve.
