@@ -1,89 +1,58 @@
+<template>
+  <div ref="mapElement" class="map-container"></div>
+</template>
 
 <script setup>
-import { ref, reactive, watch } from 'vue';
-import { Loader } from '@googlemaps/js-api-loader';
-import { GoogleMap, Polyline } from 'vue3-google-map';
+import { onMounted, ref } from 'vue';
 
-const apiKey = 'AIzaSyAd9UGOF21EFsSHh0UwsqYPL22Mm5KPb6k';
-const loader = new Loader({
-  apiKey,
-  version: 'weekly',
-  libraries: ['places']
-});
+const mapElement = ref(null);
+const map = ref(null);
 
-// Reactive property to track if Google Maps API has been loaded
-const googleMapsLoaded = ref(false);
-
-const center = ref({ lat: 40.416775, lng: -3.703790 });
-const mapOptions = reactive({
-  disableDefaultUI: true,
-  zoomControl: true,
-  mapTypeId: 'terrain'
-});
-
-const allMarkers = reactive([
-  { position: { lat: 40.417080, lng: -3.703612 }, title: 'Marker 1', distance: 5, difficulty: 'easy' },
-  { position: { lat: 40.415392, lng: -3.707433 }, title: 'Marker 2', distance: 8, difficulty: 'medium' },
-  // ... more markers
-]);
-
-const filters = reactive({
-  distance: 10,
-  difficulty: 'easy'
-});
-
-const displayedMarkers = ref([]);
-
-const applyFilters = () => {
-  displayedMarkers.value = allMarkers.filter(marker => {
-    return marker.distance <= filters.distance && marker.difficulty === filters.difficulty;
+// Función para cargar el script de Google Maps API
+const loadGoogleMapsScript = () => {
+  return new Promise((resolve, reject) => {
+    const existingScript = document.getElementById('googleMapsScript');
+    if (!existingScript) {
+      const script = document.createElement('script');
+      script.id = 'googleMapsScript';
+      script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyAd9UGOF21EFsSHh0UwsqYPL22Mm5KPb6k&callback=initMap`;
+      script.async = true;
+      script.defer = true;
+      script.onload = () => resolve();
+      script.onerror = () => reject(new Error('Failed to load Google Maps script'));
+      document.head.appendChild(script);
+    } else {
+      resolve();
+    }
   });
 };
 
-watch(filters, (newFilters) => {
-  applyFilters();
-});
+// Inicializa el mapa y el marcador después de cargar el script
+window.initMap = async () => {
+  await loadGoogleMapsScript();
+  const { Map } = google.maps;
+  map.value = new Map(mapElement.value, {
+    zoom: 10,
+    center: { lat: 42.507095, lng: -2.361620 },
+    mapId: 'DEMO_MAP_ID'
+  });
 
+  // Crear un marcador en el mapa
+  const marker = new google.maps.Marker({
+    position: { lat: 42.507095, lng: -2.361620 },
+    map: map.value,
+    title: 'Hello World!'
+  });
+};
 
-loader.importLibrary().then(() => {
-  // Google Maps API is ready to use
-  applyFilters(); // Apply filters once the map is loaded
-  googleMapsLoaded.value = true; // Set the loading status to true
+onMounted(() => {
+  initMap();
 });
 </script>
 
-
-<template>
-  <div class="mt-24 ml-24 sticky top-0">
-    <GoogleMap
-        api-key="AIzaSyAd9UGOF21EFsSHh0UwsqYPL22Mm5KPb6k"
-        style="width: 80%; height: 80vh "
-        mapTypeId="terrain"
-        :center="center"
-        :zoom="7"
-        class=""
-      >
-        <Polyline :options="hikingTrail" />
-      </GoogleMap>
-
-     <!-- Filters -->
-      <div>
-        <label for="distance">Distance (km):</label>
-        <input type="number" id="distance" v-model.number="filters.distance" />
-        <label for="difficulty">Difficulty:</label>
-        <select id="difficulty" v-model="filters.difficulty">
-          <option value="easy">Easy</option>
-          <option value="medium">Medium</option>
-          <option value="hard">Hard</option>
-        </select>
-        <button @click="applyFilters">Apply Filters</button>
-      </div>
-    
-  </div>
-  
-    
-  
-    
-</template>
-
-
+<style>
+.map-container {
+  width: 100%;
+  height: 500px;
+}
+</style>

@@ -34,27 +34,15 @@
   </div>
 </template>
 <script setup>
+import useRoutes from '../assets/composable/fetchHiker';
 import Card from '../components/ui/Card.vue';
-import { ref, computed, onMounted } from 'vue';
+import { ref, computed } from 'vue';
 // Reactive state for storing the complete route data
-const routes = ref([]);
+const {routes}=useRoutes();
 
 // Reactive states for filters
 const filterDistance = ref('');
 const filterDifficulty = ref('');
-
-// Fetching route data from the server
-const fetchData = async () => {
-  try {
-    const response = await fetch('http://localhost:3000/records_senderos');
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-    routes.value = await response.json();
-  } catch (error) {
-    console.error('There has been a problem with your fetch operation:', error);
-  }
-};
 
 // Computed property to filter routes based on selected criteria
 const filteredRoutes = computed(() => {
@@ -65,8 +53,7 @@ const filteredRoutes = computed(() => {
   });
 });
 
-// Execute fetchData when the component is mounted
-onMounted(fetchData);
+
 </script>
 
 <style scoped>

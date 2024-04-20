@@ -29,15 +29,6 @@
 
 <script setup>
 import GoogleMap from '../components/common/GoogleMap.vue';
-import { ref } from 'vue';
 import SearchFilterHiking from './SearchFilterHiking.vue';
-
-// Define a reactive property to hold the selected route data
-const selectedRoute = ref(null);
-
-// Function to handle route selection and show marker on the map
-const showMarkerOnMap = (route) => {
-  selectedRoute.value = route;
-};
 
 </script>

@@ -11,7 +11,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "BARAKALDO",
       "IZENA/NOMBRE": "Ruta 1 BARAKALDO - MUSKIZ",
       "IBILBIDEA/ITINERARIO": "BARAKALDO-PORTUGALETE-PLAYA DE LA ARENA-MUSKIZ",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/1.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/fitxategiak/07/Mediateka/4_R1_Barakaldo-Muskiz_cast.pdf?hash=aeb4e1f144f0eedf6478647aab9f386d",
       "latitude": "4793695,248",
       "latitude IRTEERA/SALIDA": "4793695,248",
       "latitude GEO": "43,29608105",
@@ -24,7 +24,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 13,
       "longitude IRTEERA/SALIDA": "502019,9045",
       "longitude HELDUERA/LLEGADA": "490869,7502",
-      "_id": 1
+      "_id": 1,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id001.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4796610,804",
@@ -37,7 +38,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "MUSKIZ ",
       "IZENA/NOMBRE": "Ruta 2 MUSKIZ - ITSASLUR",
       "IBILBIDEA/ITINERARIO": "MUSKIZ - ITSASLUR-MUSKIZ",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/2.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/fitxategiak/07/Mediateka/4_R2%20CAST.pdf?hash=13f54168f63a3705a727f7d4e94853e0",
       "latitude": "4796610,804",
       "latitude IRTEERA/SALIDA": "4796610,804",
       "latitude GEO": "43,32228185",
@@ -50,7 +51,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 71,
       "longitude IRTEERA/SALIDA": "490877,8438",
       "longitude HELDUERA/LLEGADA": "490877,8438",
-      "_id": 2
+      "_id": 2,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id002.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4799025,732",
@@ -63,7 +65,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "GETXO",
       "IZENA/NOMBRE": "Ruta 3 LAS ARENAS - BOLUE",
       "IBILBIDEA/ITINERARIO": "LAS ARENAS - HUMEDAL DE BOLUE-AIBOA",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/3.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO6/Temas/2016/Bicicletas/Rutas/R3%20CAST.pdf?hash=ae8c57e7e47d9449eb02b17ec0dfa147&idioma=CA",
       "latitude": "4797071,146",
       "latitude IRTEERA/SALIDA": "4797071,146",
       "latitude GEO": "43,32648199",
@@ -76,7 +78,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 44,
       "longitude IRTEERA/SALIDA": "499245,9537",
       "longitude HELDUERA/LLEGADA": "499797,3579",
-      "_id": 3
+      "_id": 3,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id003.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4793073,112",
@@ -89,7 +92,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "BARAKALDO",
       "IZENA/NOMBRE": "Ruta 4 CRUCES - ANSIO",
       "IBILBIDEA/ITINERARIO": "CRUCES-GOROSTIZA-EL REGATO-RETUERTO-ANSIO",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/4.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO6/Temas/2016/Bicicletas/Rutas/R4%20CAST.pdf?hash=e1a3e5a558def69021643b6456562286&idioma=CA",
       "latitude": "4792240,243",
       "latitude IRTEERA/SALIDA": "4792240,243",
       "latitude GEO": "43,28298065",
@@ -102,7 +105,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 13,
       "longitude IRTEERA/SALIDA": "501411,8025",
       "longitude HELDUERA/LLEGADA": "501079,0038",
-      "_id": 4
+      "_id": 4,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id004.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4784552,489",
@@ -115,7 +119,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "GÜEÑES",
       "IZENA/NOMBRE": "Ruta 5 LA QUADRA - ZALLA",
       "IBILBIDEA/ITINERARIO": "LA CUADRA-SODUPE-GÜEÑES-ZALLA",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/5.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO6/Temas/2016/Bicicletas/Rutas/R5%20CAST.pdf?hash=fbadcc143ec52bdb7cdcadc137bf246e&idioma=CA",
       "latitude": "4785654,738",
       "latitude IRTEERA/SALIDA": "4785654,738",
       "latitude GEO": "43,22367883",
@@ -128,7 +132,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 45,
       "longitude IRTEERA/SALIDA": "497977,7008",
       "longitude HELDUERA/LLEGADA": "489180,1491",
-      "_id": 5
+      "_id": 5,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id005.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4783781,03",
@@ -141,7 +146,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "ZALLA",
       "IZENA/NOMBRE": "Ruta 6 ZALLA - LA MELLA",
       "IBILBIDEA/ITINERARIO": "ZALLA-BOLUMBURU-LA HERRERA-LA MELLA-IBARRA",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/6.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO6/Temas/2016/Bicicletas/Rutas/R6%20CAST.pdf?hash=d47bf2f8da31affca155f178aa83718b&idioma=CA",
       "latitude": "4784563,607",
       "latitude IRTEERA/SALIDA": "4784563,607",
       "latitude GEO": "43,21377852",
@@ -154,7 +159,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 96,
       "longitude IRTEERA/SALIDA": "489172,0438",
       "longitude HELDUERA/LLEGADA": "485937,459",
-      "_id": 6
+      "_id": 6,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id006.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4789222,285",
@@ -167,7 +173,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "BASAURI",
       "IZENA/NOMBRE": "Ruta 7 BASAURI - ATXURI",
       "IBILBIDEA/ITINERARIO": "BASAURI-PARQUE MONTEFUERTE OLLARGAN-OLLARGAN-LA PEÑA-PASEO DE LOS CAÑOS-ATXURI",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/7.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO6/Temas/2016/Bicicletas/Rutas/R7%20CAST.pdf?hash=9a6401b5d5539ca92a9b85328e4d80ce&idioma=CA",
       "latitude": "4787104,062",
       "latitude IRTEERA/SALIDA": "4787104,062",
       "latitude GEO": "43,23667922",
@@ -180,7 +186,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 15,
       "longitude IRTEERA/SALIDA": "508948,1936",
       "longitude HELDUERA/LLEGADA": "506315,3538",
-      "_id": 7
+      "_id": 7,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id007.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4787600,739",
@@ -193,7 +200,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "ARRIGORRIAGA ",
       "IZENA/NOMBRE": "Ruta 8 ARRIGORRIAGA - LA PEÑA",
       "IBILBIDEA/ITINERARIO": "ARRIGORRIAGA-PARQUE DE MENDIKOSOLO BARRENA-VENTA ALTA-LA PEÑA",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/8.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO6/Temas/2016/Bicicletas/Rutas/R8%20CAST.pdf?hash=cdda2d57e9fe3300f8054790bf7845f4&idioma=CA",
       "latitude": "4784238,966",
       "latitude IRTEERA/SALIDA": "4784238,966",
       "latitude GEO": "43,21087843",
@@ -206,7 +213,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 11,
       "longitude IRTEERA/SALIDA": "509065,695",
       "longitude HELDUERA/LLEGADA": "506186,9525",
-      "_id": 8
+      "_id": 8,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id008.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4793865,268",
@@ -219,7 +227,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "LEKEITIO",
       "IZENA/NOMBRE": "Ruta 9 LEKEITIO - AULESTI",
       "IBILBIDEA/ITINERARIO": "LEKEITIO-AMOROTO-GIZABURUAGA-AULESTI",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/9.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO6/Temas/2016/Bicicletas/Rutas/R9%20CAST.pdf?hash=4128f90a448bcb45f187745a72ce55a2&idioma=CA",
       "latitude": "4801421,495",
       "latitude IRTEERA/SALIDA": "4801421,495",
       "latitude GEO": "43,36458309",
@@ -232,7 +240,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 57,
       "longitude IRTEERA/SALIDA": "540125,8647",
       "longitude HELDUERA/LLEGADA": "535425,0087",
-      "_id": 9
+      "_id": 9,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id009.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4804390,975",
@@ -245,7 +254,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "FORUA",
       "IZENA/NOMBRE": "Ruta 10 FORUA - BUSTURIA",
       "IBILBIDEA/ITINERARIO": "FORUA-MURUETA-BUSTURIA-SUKARRIETA-BUSTURIA",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/10.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO6/Temas/2016/Bicicletas/Rutas/R10%20CAST.pdf?hash=42b65e8f8b41f9b853e786fef1d77e33&idioma=CA",
       "latitude": "4797788,67",
       "latitude IRTEERA/SALIDA": "4797788,67",
       "latitude GEO": "43,33248214",
@@ -258,8 +267,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 906,
       "longitude IRTEERA/SALIDA": "526332,2798",
       "longitude HELDUERA/LLEGADA": "524800,0873",
-      "imagePath":"assets/Card-Image/Imagen_hiking_id240.png",
-      "_id": 10
+      "_id": 10,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id010.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4790535,605",
@@ -272,7 +281,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "ABANTO Y CIERVANA-ABANTO ZIERBENA",
       "IZENA/NOMBRE": "Ruta 11 GALLARTA - LA ACEÑA",
       "IBILBIDEA/ITINERARIO": "GALLARTA-LA ACEÑA",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/11.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO6/Temas/2016/Bicicletas/Rutas/R11%20CAST.pdf?hash=eb22c06d08e7fb0e14665d86107b7aab&idioma=CA",
       "latitude": "4796362,544",
       "latitude IRTEERA/SALIDA": "4796362,544",
       "latitude GEO": "43,32008179",
@@ -285,7 +294,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 2,
       "longitude IRTEERA/SALIDA": "494526,5089",
       "longitude HELDUERA/LLEGADA": "491137,4875",
-      "_id": 11
+      "_id": 11,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id011.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4774275,179",
@@ -298,7 +308,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "ZEANURI",
       "IZENA/NOMBRE": "Ruta 12 ZEANURI - AREATZA",
       "IBILBIDEA/ITINERARIO": "ZEANURI-AREATZA",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/12.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO6/Temas/2016/Bicicletas/Rutas/R12_Zeanuri-Areatza_cast.pdf?hash=322f27cbd735c2c2be2b688f78f4936f&idioma=CA",
       "latitude": "4771725,099",
       "latitude IRTEERA/SALIDA": "4771725,099",
       "latitude GEO": "43,09797496",
@@ -311,7 +321,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 24,
       "longitude IRTEERA/SALIDA": "520321,4629",
       "longitude HELDUERA/LLEGADA": "518865,7709",
-      "_id": 12
+      "_id": 12,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id012.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4776822,121",
@@ -324,7 +335,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "AREATZA",
       "IZENA/NOMBRE": "Ruta 13 AREATZA - DIMA",
       "IBILBIDEA/ITINERARIO": "AREATZA-ARTEA-ARANTZAZU-IGORRE-DIMA",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/13.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO6/Temas/2016/Bicicletas/Rutas/R13_Areatza-Dima_cast.pdf?hash=252cbfb902cb4868b338941860d88006&idioma=CA",
       "latitude": "4774374,791",
       "latitude IRTEERA/SALIDA": "4774374,791",
       "latitude GEO": "43,12187569",
@@ -337,7 +348,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 93,
       "longitude IRTEERA/SALIDA": "518743,4665",
       "longitude HELDUERA/LLEGADA": "520184,2941",
-      "_id": 13
+      "_id": 13,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id013.png"
     },
     {
       "latitude HELDUERA/LLEGADA": "4786750,538",
@@ -350,7 +362,7 @@
       "IRTEERA UDALERRIA/MUNICIPIO SALIDA": "GALDAMES",
       "IZENA/NOMBRE": "Ruta 14 GALDAMES - ARTZENTALES",
       "IBILBIDEA/ITINERARIO": "GALDAMES-SOPUERTA-ARTZENTALES",
-      "URLA/URL": "http://apli.bizkaia.net/apps/danok/g2rc/datos/pdfs/es/14.pdf",
+      "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO6/Temas/2016/Bicicletas/Rutas/R14_Galdames-Artzentales_cast.pdf?hash=a06b41d7dd552ec59ddd8c5dd27acf01&idioma=CA",
       "latitude": "4791280,866",
       "latitude IRTEERA/SALIDA": "4791280,866",
       "latitude GEO": "43,27428038",
@@ -363,7 +375,8 @@
       "IRTEERA UDALERRIA_KODEA/COD_MUNICIPIO SALIDA": 37,
       "longitude IRTEERA/SALIDA": "490278,2733",
       "longitude HELDUERA/LLEGADA": "483994,698",
-      "_id": 14
+      "_id": 14,
+      "imagePath":"src/assets/Card-Image/Imagen_Biking_id014.png"
     }
   ],
   "records_senderos": [
@@ -379,7 +392,7 @@
       "KODEA/CODIGO": "GR 123",
       "ZIRKUITOA_CAS/CIRCUITO_CAS": "RUTA",
       "LUZERA (KM)/LONGITUD (KM)": "6,2",
-      "IZENA/NOMBRE": "ALISEDAS DEL RÍO AGÜERA",
+      "IZENA/NOMBRE": "ALISEDAS DEL RÍO AGÜERA",  
       "ITURRIAK/FUENTES": "SI",
       "IRTEERA/SALIDA": "LA PUENTE APARCAMIENTO TRUCIOS",
       "latitude": "43,27013848",
@@ -396,8 +409,8 @@
       "HELDUERA/LLEGADA": "LA PUENTE APARCAMIENTO TRUCIOS",
       "_id": 28,
       "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO9/Temas/Pdf/Patrimonio_Natural/ITINERARIOS/ARMA%C3%91ON/GR-123_Alisedas%20del%20r%C3%ADo%20Ag%C3%BCera.pdf?hash=1bd32bf81e5ae21d85206c1e4e1cb772&idioma=CA",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
-
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id028.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -428,7 +441,8 @@
       "HELDUERA/LLEGADA": "LA PUENTE APARCAMIENTO TRUCIOS",
       "_id": 29,
       "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO9/Temas/Pdf/Patrimonio_Natural/ITINERARIOS/ARMA%C3%91ON/PR-BI-120_Senda%20de%20Los%20Jorrios.pdf?hash=3d8df65016b16e56c37e00809b715d87&idioma=CA",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id029.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -459,7 +473,8 @@
       "HELDUERA/LLEGADA": "EL SUCESO (KARRANTZA)",
       "_id": 30,
       "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO9/Temas/Pdf/Patrimonio_Natural/ITINERARIOS/ARMA%C3%91ON/PR-BI-121_Encinar%20de%20Sope%C3%B1a.pdf?hash=4b15d8539c0363ee56a409b6b60e7387&idioma=CA",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id030.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -490,7 +505,8 @@
       "HELDUERA/LLEGADA": "PARKETXEA",
       "_id": 31,
       "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO9/Temas/Pdf/Patrimonio_Natural/ITINERARIOS/ARMA%C3%91ON/Ruta%20hasta%20Ranero.pdf?hash=f56eb34a82823f9e8ec98b4175d96425&idioma=CA",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id031.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -521,7 +537,9 @@
       "HELDUERA/LLEGADA": "ENCLACE CON PR BI 100",
       "_id": 61,
       "URLA/URL": "http://www.alonsotegi.net/eu-ES/Albisteak/Documents/ordaola_panel_%202017%20baja.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id061.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -552,7 +570,8 @@
       "HELDUERA/LLEGADA": "PARKETXEA",
       "_id": 32,
       "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO9/Temas/Pdf/Patrimonio_Natural/ITINERARIOS/ARMA%C3%91ON/Ruta%20por%20el%20Encinar%20de%20Sope%C3%B1a.pdf?hash=8f220690df47338fcf604663a7c4faa2&idioma=CA",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id032.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -583,7 +602,8 @@
       "HELDUERA/LLEGADA": "PARKETXEA",
       "_id": 33,
       "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO9/Temas/Pdf/Patrimonio_Natural/ITINERARIOS/ARMA%C3%91ON/Ruta%20por%20el%20exterior%20del%20Parketxea.pdf?hash=06c09078f215b86b2acc36799d883323&idioma=CA",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id033.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -614,7 +634,8 @@
       "HELDUERA/LLEGADA": "PARKETXEA",
       "_id": 34,
       "URLA/URL": "https://www.bizkaia.eus/home2/archivos/DPTO9/Temas/Pdf/Patrimonio_Natural/ITINERARIOS/ARMA%C3%91ON/Ruta%20Surbias%20-%20La%20Galupa.pdf?hash=1cf46ba2426fdd1bd463ea3acd194c5b&idioma=CA",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id034.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -645,7 +666,8 @@
       "HELDUERA/LLEGADA": "SAN SEGISMUNDO ERMITA",
       "_id": 35,
       "URLA/URL": "http://www.zeberio.net/es-ES/Turistas/Recorridos/Documents/PR.NUEVO.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id035.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -676,7 +698,8 @@
       "HELDUERA/LLEGADA": "LOTURA PR-BI 11",
       "_id": 36,
       "URLA/URL": "http://www.zeberio.net/es-ES/Turistas/Recorridos/Documents/PR.NUEVO.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id036.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -707,7 +730,8 @@
       "HELDUERA/LLEGADA": "LOTURA PR-BI 11",
       "_id": 37,
       "URLA/URL": "http://www.zeberio.net/es-ES/Turistas/Recorridos/Documents/PR.NUEVO.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id037.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -738,7 +762,8 @@
       "HELDUERA/LLEGADA": "OLLARGAN",
       "_id": 38,
       "URLA/URL": "http://www.arrigorriaga.eus/es-ES/ConoceArrigorriaga/Nuestroentorno/Sendero%2015/A4._PR%20BI%2015.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id038.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -769,7 +794,8 @@
       "HELDUERA/LLEGADA": "ARRIGORRIAGA",
       "_id": 39,
       "URLA/URL": "http://www.arrigorriaga.eus/es-ES/ConoceArrigorriaga/Nuestroentorno/Sendero%2016/A4._PR%20BI%2016.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id039.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -800,7 +826,8 @@
       "HELDUERA/LLEGADA": "IBARRA",
       "_id": 40,
       "URLA/URL": "http://www.orozkoudala.com/es-ES/ConoceOrozko/Turismo/Documents/PR-BI%2033%20IBARRA-URIGOITI.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id040.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -831,7 +858,8 @@
       "HELDUERA/LLEGADA": "ZUBIAUR",
       "_id": 41,
       "URLA/URL": "http://www.orozkoudala.com/es-ES/ConoceOrozko/Turismo/Documents/PR-BI%2034%20ZUBIAUR-LOBANTZU-KURTZEGAN.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id041.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -862,7 +890,8 @@
       "HELDUERA/LLEGADA": "ZUBIAUR",
       "_id": 42,
       "URLA/URL": "http://www.orozkoudala.com/es-ES/ConoceOrozko/Turismo/Documents/PR-BI%2035%20ZUBIAUR-SANTA%20MARINA.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id042.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -893,7 +922,8 @@
       "HELDUERA/LLEGADA": "PAGOMAKURRE",
       "_id": 43,
       "URLA/URL": "http://www.areatza.net/PublishingImages/pagomakurre.jpg",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id043.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -924,7 +954,8 @@
       "HELDUERA/LLEGADA": "OTXANDIO",
       "_id": 44,
       "URLA/URL": "http://www.otxandio.eus/es-ES/Turismo/Rutas/Paginas/Ru_mon_dif_Basabisitta.aspx",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id044.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -955,7 +986,8 @@
       "HELDUERA/LLEGADA": "OTXANDIO",
       "_id": 45,
       "URLA/URL": "https://www.otxandio.eus/es-ES/Turismo/Rutas/Paginas/Ru_mon_mod_HayedoscalzadasarroyosermitasymuchomasPRBI52.aspx",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id045.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -986,7 +1018,8 @@
       "HELDUERA/LLEGADA": "GUDARIEN PARKEA",
       "_id": 46,
       "URLA/URL": "http://www.lemoa.net/es-ES/Turismo/Senderos/Paginas/default.aspx",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id046.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -1017,7 +1050,8 @@
       "HELDUERA/LLEGADA": "ERMUA",
       "_id": 47,
       "URLA/URL": "https://www.ermua.es/pagsbiblio/fondo_local/archivos/documentos/PN0001_PR_Bi_Ermua_Mallabia_Ermua_14_01_2010_10_21_37.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id047.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -1048,7 +1082,8 @@
       "HELDUERA/LLEGADA": "ELGETA MENDATEA",
       "_id": 48,
       "URLA/URL": "https://www.zaldibar.eus/es-ES/Conoce-Zaldibar/Camina/Paginas/default.aspx",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id048.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -1079,7 +1114,8 @@
       "HELDUERA/LLEGADA": "AMOREBIETA",
       "_id": 49,
       "URLA/URL": "https://www.ametx.eus/es/programas/pr-andres-espinosa",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id049.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -1110,7 +1146,8 @@
       "HELDUERA/LLEGADA": "AXPE",
       "_id": 50,
       "URLA/URL": "https://www.euskadi.eus/web01-a2ingurd/es/u95aWar/u95aPintaFicheroServlet?idiomaFichero=es&codigoFichero=5417&tipoFichero=2&R01HNoPortal=true",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id050.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -1141,7 +1178,8 @@
       "HELDUERA/LLEGADA": "KANALA (PARKING)",
       "_id": 51,
       "URLA/URL": "https://www.euskadi.eus/web01-a2ingurd/es/u95aWar/u95aPintaFicheroServlet?idiomaFichero=es&codigoFichero=5418&tipoFichero=2&R01HNoPortal=true",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id051.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -1172,7 +1210,8 @@
       "HELDUERA/LLEGADA": "PLAZA DEL AYUNTAMIENTO (ZELAIETA)",
       "_id": 52,
       "URLA/URL": "https://www.euskadi.eus/web01-a2ingurd/es/u95aWar/u95aPintaFicheroServlet?R01HNoPortal=true&idiomaFichero=es&codigoFichero=5419&tipoFichero=2&R01HNoPortal=true",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id052.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -1203,7 +1242,8 @@
       "HELDUERA/LLEGADA": "ELEXALDE-IBARRANGELU",
       "_id": 53,
       "URLA/URL": "https://www.euskadi.eus/web01-a2ingurd/es/u95aWar/u95aPintaFicheroServlet?R01HNoPortal=true&idiomaFichero=es&codigoFichero=5420&tipoFichero=2&R01HNoPortal=true",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id053.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -1234,7 +1274,8 @@
       "HELDUERA/LLEGADA": "ELEXALDE-ARRATZU",
       "_id": 54,
       "URLA/URL": "https://www.euskadi.eus/web01-a2ingurd/es/u95aWar/u95aPintaFicheroServlet?R01HNoPortal=true&idiomaFichero=es&codigoFichero=5421&tipoFichero=2&R01HNoPortal=true",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id054.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -1265,7 +1306,8 @@
       "HELDUERA/LLEGADA": "ELEXALDE-NABARNIZ",
       "_id": 55,
       "URLA/URL": "https://www.euskadi.eus/web01-a2ingurd/es/u95aWar/u95aPintaFicheroServlet?R01HNoPortal=true&idiomaFichero=es&codigoFichero=5422&tipoFichero=2&R01HNoPortal=true",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id055.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -1296,7 +1338,8 @@
       "HELDUERA/LLEGADA": "MUNDAKA-PARQUE",
       "_id": 56,
       "URLA/URL": "https://www.euskadi.eus/web01-a2ingurd/es/u95aWar/u95aPintaFicheroServlet?R01HNoPortal=true&idiomaFichero=es&codigoFichero=5423&tipoFichero=2&R01HNoPortal=true",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id056.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -1327,7 +1370,8 @@
       "HELDUERA/LLEGADA": "LEZIKA (BASONDO)",
       "_id": 57,
       "URLA/URL": "https://www.euskadi.eus/web01-a2ingurd/es/u95aWar/u95aPintaFicheroServlet?R01HNoPortal=true&idiomaFichero=es&codigoFichero=5424&tipoFichero=2&R01HNoPortal=true",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id057.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -1358,7 +1402,8 @@
       "HELDUERA/LLEGADA": "VILLA ARGENTINA (GERNIKA)",
       "_id": 58,
       "URLA/URL": "https://www.euskadi.eus/web01-a2ingurd/es/u95aWar/u95aPintaFicheroServlet?R01HNoPortal=true&idiomaFichero=es&codigoFichero=5425&tipoFichero=2&R01HNoPortal=true",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id058.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "SEMICIRCULAR",
@@ -1389,7 +1434,8 @@
       "HELDUERA/LLEGADA": "ARIATZA",
       "_id": 59,
       "URLA/URL": "https://www.euskadi.eus/web01-a2ingurd/es/u95aWar/u95aPintaFicheroServlet?R01HNoPortal=true&idiomaFichero=es&codigoFichero=5427&tipoFichero=2&R01HNoPortal=true",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id059.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -1420,7 +1466,8 @@
       "HELDUERA/LLEGADA": "AZORDOIAGA",
       "_id": 60,
       "URLA/URL": "http://www.alonsotegi.net/eu-ES/Albisteak/Documents/ordaola_panel_%202017%20baja.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id060.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -1451,7 +1498,8 @@
       "HELDUERA/LLEGADA": "ENCLACE CON PR BI 100",
       "_id": 62,
       "URLA/URL": "http://www.alonsotegi.net/eu-ES/Albisteak/Documents/ordaola_panel_%202017%20baja.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id062.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -1482,7 +1530,8 @@
       "HELDUERA/LLEGADA": "IRAUREGI",
       "_id": 63,
       "URLA/URL": "http://www.alonsotegi.net/eu-ES/Albisteak/Documents/ordaola_panel_%202017%20baja.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id063.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -1513,7 +1562,8 @@
       "HELDUERA/LLEGADA": "CALLE IORGI (SODUPE)",
       "_id": 64,
       "URLA/URL": "http://www.guenes.eus/es-ES/Concejo-Guenes/Rutas-montana/Recorridos/02_PR_BI_105.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id064.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -1544,7 +1594,8 @@
       "HELDUERA/LLEGADA": "APARCAMIENTO ARBORI",
       "_id": 65,
       "URLA/URL": "http://www.guenes.eus/es-ES/Concejo-Guenes/Rutas-montana/Burdin%20Hesia/03_00_Guenes_FOLLETO%20RECORRIDO%202018%20BURDIN%20HESIA.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id065.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -1575,7 +1626,8 @@
       "HELDUERA/LLEGADA": "ESTACIÓN FEVE (LA CUADRA)",
       "_id": 66,
       "URLA/URL": "http://www.guenes.eus/es-ES/Concejo-Guenes/Rutas-montana/Recorridos/04_Guenes_LUXAR-ERETZA.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id066.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -1606,7 +1658,8 @@
       "HELDUERA/LLEGADA": "COLLADO DE PAGUERO",
       "_id": 67,
       "URLA/URL": "http://www.guenes.eus/es-ES/Concejo-Guenes/Rutas-montana/Recorridos/05_paguero.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id067.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -1637,7 +1690,8 @@
       "HELDUERA/LLEGADA": "BARRIO DE GOROSTIZA",
       "_id": 68,
       "URLA/URL": "https://www.barakaldo.eus/portal/c/document_library/get_file?uuid=02747223-fff7-4655-bce5-1892d548bffe&groupId=36219",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id068.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -1668,7 +1722,8 @@
       "HELDUERA/LLEGADA": "URKAREGI MENDATEA",
       "_id": 69,
       "URLA/URL": "http://www.markina-xemein.eus/es-ES/Turismo/rutas/PR%20BI%2022.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id069.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -1699,7 +1754,8 @@
       "HELDUERA/LLEGADA": "MARKINA-XEMEIN",
       "_id": 70,
       "URLA/URL": "http://www.markina-xemein.eus/es-ES/Turismo/rutas/PR%20BI%2022.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id070.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -1730,7 +1786,8 @@
       "HELDUERA/LLEGADA": "KALAMUA",
       "_id": 71,
       "URLA/URL": "http://www.markina-xemein.eus/es-ES/Turismo/rutas/PR%20BI%2023-PR%20BI%2024.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id071.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -1761,7 +1818,8 @@
       "HELDUERA/LLEGADA": "IBARGUEN BASERRI",
       "_id": 72,
       "URLA/URL": "http://www.markina-xemein.eus/es-ES/Turismo/rutas/PR%20BI%2023-PR%20BI%2024.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imgaen_hiking_id072.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -1792,7 +1850,8 @@
       "HELDUERA/LLEGADA": "TRABAKUA",
       "_id": 73,
       "URLA/URL": "http://www.markina-xemein.eus/es-ES/Turismo/rutas/PR%20BI%2023-PR%20BI%2024.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id073.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -1823,7 +1882,8 @@
       "HELDUERA/LLEGADA": "MARKINA-XEMEIN",
       "_id": 74,
       "URLA/URL": "http://www.markina-xemein.eus/es-ES/Turismo/rutas/PR%20BI%2023-PR%20BI%2024.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id074.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -1854,7 +1914,8 @@
       "HELDUERA/LLEGADA": "DONAGARAI",
       "_id": 75,
       "URLA/URL": "http://www.markina-xemein.eus/es-ES/Turismo/rutas/PR%20BI%2023-PR%20BI%2024.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id075.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -1885,7 +1946,8 @@
       "HELDUERA/LLEGADA": "MINITIBAR-ARBATZEGI-GARRIKAITZ",
       "_id": 76,
       "URLA/URL": "http://www.markina-xemein.eus/es-ES/Turismo/rutas/PR%20BI%2025.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id076.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -1916,7 +1978,8 @@
       "HELDUERA/LLEGADA": "AULESTI",
       "_id": 77,
       "URLA/URL": "http://www.markina-xemein.eus/es-ES/Turismo/rutas/PR%20BI%2026-PR%20BI%2027.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id077.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -1931,7 +1994,6 @@
       "ZIRKUITOA_CAS/CIRCUITO_CAS": "RUTA DEL COLESTEROL",
       "LUZERA (KM)/LONGITUD (KM)": "4",
       "IZENA/NOMBRE": "IURRETA-ARANDIA",
-      "ITURRIAK/FUENTES": "SI",
       "IRTEERA/SALIDA": "IURRETA",
       "latitude": "43,17447788",
       "DENBORA (OO:MM)/DURACION (HH:MM)": "1:00",
@@ -1947,7 +2009,8 @@
       "HELDUERA/LLEGADA": "IURRETA",
       "_id": 132,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/30",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id132.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -1978,7 +2041,8 @@
       "HELDUERA/LLEGADA": "ATXONDOA",
       "_id": 78,
       "URLA/URL": "http://www.markina-xemein.eus/es-ES/Turismo/rutas/PR%20BI%2026-PR%20BI%2027.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id078.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2009,7 +2073,8 @@
       "HELDUERA/LLEGADA": "URREGARAIKO ZELAIA",
       "_id": 79,
       "URLA/URL": "http://www.markina-xemein.eus/es-ES/Turismo/rutas/PR%20BI%2026-PR%20BI%2027.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id079.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2040,7 +2105,8 @@
       "HELDUERA/LLEGADA": "LARRUZ BASERRI",
       "_id": 80,
       "URLA/URL": "http://www.markina-xemein.eus/es-ES/Turismo/rutas/PR%20BI%2026-PR%20BI%2027.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id080.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2071,7 +2137,8 @@
       "HELDUERA/LLEGADA": "KORTAGUREN BASERRI",
       "_id": 81,
       "URLA/URL": "http://www.markina-xemein.eus/es-ES/Turismo/rutas/PR%20BI%2028.pdf",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id081.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2102,7 +2169,8 @@
       "HELDUERA/LLEGADA": "BEDIA",
       "_id": 82,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/63",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id082.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2133,7 +2201,8 @@
       "HELDUERA/LLEGADA": "ARRAIBI (LEMOA)",
       "_id": 83,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/64",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id083.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2164,7 +2233,8 @@
       "HELDUERA/LLEGADA": "PUENTELATORRE (GALDAKAO)",
       "_id": 84,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/65",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id084.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2195,7 +2265,8 @@
       "HELDUERA/LLEGADA": "BEDIA",
       "_id": 85,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/66",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id085.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2226,7 +2297,8 @@
       "HELDUERA/LLEGADA": "DIMA",
       "_id": 86,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/67",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id086.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2257,7 +2329,8 @@
       "HELDUERA/LLEGADA": "ARANTZAZU",
       "_id": 87,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/68",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id087.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2288,7 +2361,8 @@
       "HELDUERA/LLEGADA": "ARTEA",
       "_id": 88,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/69",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id088.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2319,7 +2393,8 @@
       "HELDUERA/LLEGADA": "AREATZA",
       "_id": 89,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/70",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id089.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2350,7 +2425,8 @@
       "HELDUERA/LLEGADA": "ZEANURI",
       "_id": 90,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/71",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id090.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -2381,7 +2457,8 @@
       "HELDUERA/LLEGADA": "ZEANURI",
       "_id": 91,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/72",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id091.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2412,7 +2489,8 @@
       "HELDUERA/LLEGADA": "ZUBIZOLA (UBIDE)",
       "_id": 92,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/73",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id092.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2443,7 +2521,8 @@
       "HELDUERA/LLEGADA": "BARRIO URKIZU (IGORRE)",
       "_id": 93,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/159",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id093.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2474,7 +2553,8 @@
       "HELDUERA/LLEGADA": "CASERÍO OIARBE (EA)",
       "_id": 94,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/37",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id094.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2505,7 +2585,8 @@
       "HELDUERA/LLEGADA": "PUERTO (EA)",
       "_id": 95,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/38",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id095.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2536,7 +2617,8 @@
       "HELDUERA/LLEGADA": "BARRIO GABIKA (EREÑO)",
       "_id": 96,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/39",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id096.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2567,7 +2649,8 @@
       "HELDUERA/LLEGADA": "BARRIO LEKERIKA (NABARNIZ)",
       "_id": 97,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/40",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imgen_hiking_id097.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -2598,7 +2681,8 @@
       "HELDUERA/LLEGADA": "ELANTXOBE",
       "_id": 98,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/41",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id98.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -2629,7 +2713,8 @@
       "HELDUERA/LLEGADA": "ELANTXOBE",
       "_id": 99,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/42",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id099.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2660,7 +2745,8 @@
       "HELDUERA/LLEGADA": "PLAYA LAGA",
       "_id": 100,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/43",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id100.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2691,7 +2777,8 @@
       "HELDUERA/LLEGADA": "PLAYA LAIDA",
       "_id": 101,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/44",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id101.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2722,7 +2809,8 @@
       "HELDUERA/LLEGADA": "BARRIO KANALA",
       "_id": 102,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/45",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id102.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -2753,7 +2841,8 @@
       "HELDUERA/LLEGADA": "GAUTEGIZ - ARTEAGA",
       "_id": 103,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/46",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id103.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2784,7 +2873,8 @@
       "HELDUERA/LLEGADA": "KORTEZUBI",
       "_id": 104,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/47",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id104.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -2815,7 +2905,8 @@
       "HELDUERA/LLEGADA": "AJANGIZ",
       "_id": 105,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/157",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id105.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2846,7 +2937,8 @@
       "HELDUERA/LLEGADA": "BARRIO BARRUTIA (ARRATZU)",
       "_id": 106,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/48",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id106.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2877,7 +2969,8 @@
       "HELDUERA/LLEGADA": "BARRIO ALBIZ (MENDATA)",
       "_id": 107,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/49",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id107.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2908,7 +3001,8 @@
       "HELDUERA/LLEGADA": "ESPIGÓN DE BERMEO",
       "_id": 108,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/50",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id108.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -2939,7 +3033,8 @@
       "HELDUERA/LLEGADA": "ANDER DEUNA ENPARANTZA (SUKARRIETA)",
       "_id": 109,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/51",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id109.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -2970,7 +3065,8 @@
       "HELDUERA/LLEGADA": "ANDER DEUNA ENPARANTZA (SUKARRIETA)",
       "_id": 110,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/52",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id110.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -3001,7 +3097,8 @@
       "HELDUERA/LLEGADA": "BUSTURIA",
       "_id": 111,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/53",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id111.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -3032,7 +3129,8 @@
       "HELDUERA/LLEGADA": "BUSTURIA",
       "_id": 112,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/54",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id112.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -3063,7 +3161,8 @@
       "HELDUERA/LLEGADA": "FORUA",
       "_id": 113,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/55",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id113.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -3094,7 +3193,8 @@
       "HELDUERA/LLEGADA": "OLAKOERROTA (KORTEZUBI)",
       "_id": 114,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/56",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id114.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -3125,7 +3225,8 @@
       "HELDUERA/LLEGADA": "PUENTE ERRENTERIA (GERNIKA)",
       "_id": 115,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/57",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id115.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -3156,7 +3257,8 @@
       "HELDUERA/LLEGADA": "FORUA",
       "_id": 116,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/58",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id116.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -3187,7 +3289,8 @@
       "HELDUERA/LLEGADA": "FORUA",
       "_id": 117,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/59",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id117.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -3218,7 +3321,8 @@
       "HELDUERA/LLEGADA": "MUXIKA",
       "_id": 118,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/60",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id118.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -3249,7 +3353,8 @@
       "HELDUERA/LLEGADA": "BARRIO MADALEN (ERRIGOITI)",
       "_id": 119,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/61",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id119.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -3280,7 +3385,8 @@
       "HELDUERA/LLEGADA": "BARRIO MEAKA (MORGA)",
       "_id": 120,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/62",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id120.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -3311,7 +3417,8 @@
       "HELDUERA/LLEGADA": "ERMUA",
       "_id": 121,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/20",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id121.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -3342,7 +3449,8 @@
       "HELDUERA/LLEGADA": "ZALDIBAR",
       "_id": 122,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/21",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id122.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -3373,7 +3481,8 @@
       "HELDUERA/LLEGADA": "ITURRITZA (BERRIZ)",
       "_id": 123,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/22",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id123.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -3404,7 +3513,8 @@
       "HELDUERA/LLEGADA": "ZALDIBAR",
       "_id": 124,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/23",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id124.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -3435,7 +3545,8 @@
       "HELDUERA/LLEGADA": "TRAÑA-MATIENA (ABADIÑO)",
       "_id": 125,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/24",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id125.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -3466,7 +3577,8 @@
       "HELDUERA/LLEGADA": "TRAÑA-MATIENA (ABADIÑO)",
       "_id": 126,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/25",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id126.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -3497,7 +3609,8 @@
       "HELDUERA/LLEGADA": "ABADIÑO",
       "_id": 127,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/26",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id127.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -3528,7 +3641,8 @@
       "HELDUERA/LLEGADA": "ABADIÑO",
       "_id": 128,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/27",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id128.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -3559,7 +3673,8 @@
       "HELDUERA/LLEGADA": "ELORRIO",
       "_id": 129,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/158",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id129.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -3590,7 +3705,8 @@
       "HELDUERA/LLEGADA": "ATXONDO",
       "_id": 130,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/28",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id130.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -3621,7 +3737,8 @@
       "HELDUERA/LLEGADA": "BARRIO ARRAZOLA (ATXONDO)",
       "_id": 131,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/29",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id131.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -3652,7 +3769,8 @@
       "HELDUERA/LLEGADA": "IURRETA",
       "_id": 133,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/31",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id133.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -3683,7 +3801,8 @@
       "HELDUERA/LLEGADA": "IZURTZA",
       "_id": 134,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/32",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id134.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -3714,7 +3833,8 @@
       "HELDUERA/LLEGADA": "IZURTZA",
       "_id": 135,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/33",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id135.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -3745,7 +3865,8 @@
       "HELDUERA/LLEGADA": "BARRIO URKULETA (MAÑARIA)",
       "_id": 136,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/34",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id136.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -3776,7 +3897,8 @@
       "HELDUERA/LLEGADA": "BARRIO OLETA",
       "_id": 137,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/35",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id137.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -3807,7 +3929,8 @@
       "HELDUERA/LLEGADA": "OTXANDIO",
       "_id": 138,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/36",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id138.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -3838,7 +3961,8 @@
       "HELDUERA/LLEGADA": "BARRIO ULARKI (ALONSOTEGI)",
       "_id": 139,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/131",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id139.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -3869,7 +3993,8 @@
       "HELDUERA/LLEGADA": "ZORROTZA, FLEX",
       "_id": 140,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/132",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id140.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -3900,7 +4025,8 @@
       "HELDUERA/LLEGADA": "SODUPE HERRIKO PLAZA (GÜEÑES)",
       "_id": 141,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/133",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id141.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -3931,7 +4057,8 @@
       "HELDUERA/LLEGADA": "GÜEÑES",
       "_id": 142,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/134",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id142.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -3962,7 +4089,8 @@
       "HELDUERA/LLEGADA": "ALONSOTEGI",
       "_id": 143,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/135",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id143.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -3993,7 +4121,8 @@
       "HELDUERA/LLEGADA": "LA QUADRA AUZOA (GÜEÑES)",
       "_id": 144,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/136",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id144.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -4024,7 +4153,8 @@
       "HELDUERA/LLEGADA": "MOLINAR PLAZA (GORDEXOLA)",
       "_id": 145,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/137",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id145.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -4055,7 +4185,8 @@
       "HELDUERA/LLEGADA": "MOLINAR PLAZA (GORDEXOLA)",
       "_id": 146,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/138",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id146.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -4086,7 +4217,8 @@
       "HELDUERA/LLEGADA": "ZALLA",
       "_id": 147,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/139",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id147.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -4117,7 +4249,8 @@
       "HELDUERA/LLEGADA": "BI-636 ACCESO AL CAMPO DE FÚTBOL DE SALINILLAS",
       "_id": 148,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/140",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id148.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -4148,7 +4281,8 @@
       "HELDUERA/LLEGADA": "ARTZENTALES",
       "_id": 149,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/141",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id149.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -4179,7 +4313,8 @@
       "HELDUERA/LLEGADA": "BARRIO POBEÑA (MUSKIZ)",
       "_id": 174,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/129",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id174.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -4210,7 +4345,8 @@
       "HELDUERA/LLEGADA": "TRASLAVIÑA (ARTZENTALES)",
       "_id": 150,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/142",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id150.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -4241,7 +4377,8 @@
       "HELDUERA/LLEGADA": "BARRIO EL CASTAÑO (SOPUERTA)",
       "_id": 151,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/143",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id151.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -4272,7 +4409,8 @@
       "HELDUERA/LLEGADA": "BARRIO LAS RIBAS (SOPUERTA)",
       "_id": 152,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/144",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id152.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -4303,7 +4441,8 @@
       "HELDUERA/LLEGADA": "BARRIO ARENAO (SOPUERTA)",
       "_id": 153,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/145",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id153.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -4334,7 +4473,8 @@
       "HELDUERA/LLEGADA": "ALTO DE UMARAN (GALDAMES)",
       "_id": 154,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/146",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id154.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -4365,7 +4505,8 @@
       "HELDUERA/LLEGADA": "LÍMITE MUNICIPAL CON AGÜERA DE GURIEZO",
       "_id": 155,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/147",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id155.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -4396,7 +4537,8 @@
       "HELDUERA/LLEGADA": "BARRIO LA MATANZA",
       "_id": 156,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/148",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id156.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -4427,7 +4569,8 @@
       "HELDUERA/LLEGADA": "KARRANTZA HARANA/VALLE DE CARRANZA",
       "_id": 157,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/149",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id157.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -4458,7 +4601,8 @@
       "HELDUERA/LLEGADA": "BI-4625, SUBIDA AL BARRIO DE LANZASAGUDAS",
       "_id": 158,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/150",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id158.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -4489,7 +4633,8 @@
       "HELDUERA/LLEGADA": "BARRIO PANDO",
       "_id": 159,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/151",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id159.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -4520,7 +4665,8 @@
       "HELDUERA/LLEGADA": "LANESTOSA",
       "_id": 160,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/152",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id160.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -4551,7 +4697,8 @@
       "HELDUERA/LLEGADA": "ÁREA RECREATIVA BOLUNBURU (ZALLA)",
       "_id": 161,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/153",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id161.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -4582,7 +4729,8 @@
       "HELDUERA/LLEGADA": "ARANGUREN, AUTONOMIA PLAZA (ZALLA)",
       "_id": 162,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/154",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id162.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -4613,7 +4761,8 @@
       "HELDUERA/LLEGADA": "GÜEÑES",
       "_id": 163,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/155",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id163.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -4644,7 +4793,8 @@
       "HELDUERA/LLEGADA": "BARRIO EL PUERTO (ZIERBENA)",
       "_id": 164,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/119",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id164.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -4675,7 +4825,8 @@
       "HELDUERA/LLEGADA": "BARRIO LA ARENA, PLAYA (ZIERBENA)",
       "_id": 165,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/120",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id165.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -4706,7 +4857,8 @@
       "HELDUERA/LLEGADA": "PUNTA LUCERO",
       "_id": 166,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/121",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id166.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -4737,7 +4889,8 @@
       "HELDUERA/LLEGADA": "ABANTO-ZIERBENA",
       "_id": 167,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/122",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id167.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -4768,7 +4921,8 @@
       "HELDUERA/LLEGADA": "BARRIO LA ARENA, PLAYA (ZIERBENA)",
       "_id": 168,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/123",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id168.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -4799,7 +4953,8 @@
       "HELDUERA/LLEGADA": "ORTUELLA",
       "_id": 169,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/124",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id169.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -4830,7 +4985,8 @@
       "HELDUERA/LLEGADA": "ABANTO-ZIERBENA",
       "_id": 170,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/125",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id170.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -4861,7 +5017,8 @@
       "HELDUERA/LLEGADA": "BARRIO LA ARENA, PLAYA (ZIERBENA)",
       "_id": 171,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/126",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id171.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -4892,7 +5049,8 @@
       "HELDUERA/LLEGADA": "MUSKIZ",
       "_id": 172,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/127",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id172.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -4923,7 +5081,8 @@
       "HELDUERA/LLEGADA": "BARRIO KOBARON (MUSKIZ)",
       "_id": 173,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/128",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id173.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -4954,7 +5113,8 @@
       "HELDUERA/LLEGADA": "MUSKIZ",
       "_id": 175,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/130",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id175.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -4985,7 +5145,8 @@
       "HELDUERA/LLEGADA": "ALBERGUE MUNICIPAL (ABANTO-ZIERBENA)",
       "_id": 176,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/164",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id176.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -5016,7 +5177,8 @@
       "HELDUERA/LLEGADA": "ONDARROA",
       "_id": 177,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/1",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id177.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -5047,7 +5209,8 @@
       "HELDUERA/LLEGADA": "BARRIO ERRENTERIA (ONDARROA)",
       "_id": 178,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/2",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id178.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -5078,7 +5241,8 @@
       "HELDUERA/LLEGADA": "BARRIO ERRENTERIA (ONDARROA)",
       "_id": 179,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/3",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id179.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -5109,7 +5273,8 @@
       "HELDUERA/LLEGADA": "BERRIATUA",
       "_id": 180,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/4",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id180.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -5140,7 +5305,8 @@
       "HELDUERA/LLEGADA": "MARKINA-XEMEIN",
       "_id": 181,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/5",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id181.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -5171,7 +5337,8 @@
       "HELDUERA/LLEGADA": "MARKINA-XEMEIN",
       "_id": 182,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/6",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id182.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -5202,7 +5369,8 @@
       "HELDUERA/LLEGADA": "ETXEBARRIA",
       "_id": 183,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/7",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id183.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -5233,7 +5401,8 @@
       "HELDUERA/LLEGADA": "ZIORTZA-BOLIBAR",
       "_id": 184,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/8",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id184.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -5264,7 +5433,8 @@
       "HELDUERA/LLEGADA": "BARRIO ITURRETA (MENDEXA)",
       "_id": 185,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/9",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id185.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -5295,7 +5465,8 @@
       "HELDUERA/LLEGADA": "BARRIO LEAGI (MENDEXA)",
       "_id": 186,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/10",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id186.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -5326,7 +5497,8 @@
       "HELDUERA/LLEGADA": "PLAYA KARRASPIO (MENDEXA)",
       "_id": 187,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/11",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id187.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -5357,7 +5529,8 @@
       "HELDUERA/LLEGADA": "FORO SANTA KATALINA (LEKEITIO)",
       "_id": 188,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/12",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id188.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -5388,7 +5561,8 @@
       "HELDUERA/LLEGADA": "LEKEITIO",
       "_id": 189,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/13",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id189.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -5419,7 +5593,8 @@
       "HELDUERA/LLEGADA": "BARRIO URRUTIA (AMOROTO)",
       "_id": 190,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/14",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id190.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -5450,7 +5625,8 @@
       "HELDUERA/LLEGADA": "BARRIO LARIZ (GIZABURUAGA)",
       "_id": 191,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/15",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id191.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -5481,7 +5657,8 @@
       "HELDUERA/LLEGADA": "AULESTI",
       "_id": 192,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/16",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id192.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -5512,7 +5689,8 @@
       "HELDUERA/LLEGADA": "MUNITIBAR-ARBATZEGI GERRIKAITZ",
       "_id": 193,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/17",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id193.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -5543,7 +5721,8 @@
       "HELDUERA/LLEGADA": "MUNITIBAR-ARBATZEGI GERRIKAITZ",
       "_id": 194,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/18",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id194.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -5574,7 +5753,8 @@
       "HELDUERA/LLEGADA": "ISPASTER",
       "_id": 195,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/19",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id195.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -5605,7 +5785,8 @@
       "HELDUERA/LLEGADA": "BARRIO URDINBIDE (ZARATAMO)",
       "_id": 196,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/107",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id196.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -5636,7 +5817,8 @@
       "HELDUERA/LLEGADA": "UGAO-MIRABALLES",
       "_id": 197,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/108",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id197.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -5667,7 +5849,8 @@
       "HELDUERA/LLEGADA": "AGIRRE-MARTIARTU (ARRIGORRIAGA)",
       "_id": 198,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/109",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id198.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -5698,7 +5881,8 @@
       "HELDUERA/LLEGADA": "ARRIGORRIAGA",
       "_id": 199,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/110",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id199.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -5729,7 +5913,8 @@
       "HELDUERA/LLEGADA": "PUENTE DE BASAKOETXE (ARRANKUDIAGA)",
       "_id": 200,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/111",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id200.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -5760,7 +5945,8 @@
       "HELDUERA/LLEGADA": "ARRANKUDIAGA",
       "_id": 201,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/112",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id201.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -5791,7 +5977,8 @@
       "HELDUERA/LLEGADA": "ARAKALDO",
       "_id": 202,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/113",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id202.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -5822,7 +6009,8 @@
       "HELDUERA/LLEGADA": "ARAKALDO",
       "_id": 203,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/114",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id203.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -5853,7 +6041,8 @@
       "HELDUERA/LLEGADA": "OROZKO",
       "_id": 204,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/115",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id204.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -5884,7 +6073,8 @@
       "HELDUERA/LLEGADA": "OROZKO",
       "_id": 205,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/116",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id205.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -5915,7 +6105,8 @@
       "HELDUERA/LLEGADA": "URDUÑA/ORDUÑA",
       "_id": 206,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/117",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id206.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -5946,7 +6137,8 @@
       "HELDUERA/LLEGADA": "UNDURRAGA (ZEBERIO)",
       "_id": 207,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/118",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id207.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -5977,7 +6169,8 @@
       "HELDUERA/LLEGADA": "URDUÑA/ORDUÑA",
       "_id": 208,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/165",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id208.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -6008,7 +6201,8 @@
       "HELDUERA/LLEGADA": "BARRIO UGALDE (LARRABETZU)",
       "_id": 209,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/74",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id209.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -6039,7 +6233,8 @@
       "HELDUERA/LLEGADA": "LARRABETZU",
       "_id": 210,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/75",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id210.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -6070,7 +6265,8 @@
       "HELDUERA/LLEGADA": "ZAMUDIO",
       "_id": 211,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/76",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id211.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -6101,7 +6297,8 @@
       "HELDUERA/LLEGADA": "LEZAMA",
       "_id": 212,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/77",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id212.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -6132,7 +6329,8 @@
       "HELDUERA/LLEGADA": "LEZAMA",
       "_id": 213,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/78",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id213.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -6163,7 +6361,8 @@
       "HELDUERA/LLEGADA": "ZAMUDIO",
       "_id": 214,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/79",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id214.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -6194,7 +6393,8 @@
       "HELDUERA/LLEGADA": "ZAMUDIO",
       "_id": 215,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/80",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id215.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -6225,7 +6425,8 @@
       "HELDUERA/LLEGADA": "AIARTZA, BARRIO SAN ESTEBAN (DERIO)",
       "_id": 216,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/81",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id216.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -6256,7 +6457,8 @@
       "HELDUERA/LLEGADA": "DERIO",
       "_id": 217,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/82",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id217.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -6287,7 +6489,8 @@
       "HELDUERA/LLEGADA": "ZAMUDIO",
       "_id": 218,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/83",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id218.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -6318,7 +6521,8 @@
       "HELDUERA/LLEGADA": "SONDIKA",
       "_id": 219,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/84",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id219.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -6349,7 +6553,8 @@
       "HELDUERA/LLEGADA": "DERIO",
       "_id": 220,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/85",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id220.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -6380,7 +6585,8 @@
       "HELDUERA/LLEGADA": "GOIRI ENPARANTZA (SONDIKA)",
       "_id": 221,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/86",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id221.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -6411,7 +6617,8 @@
       "HELDUERA/LLEGADA": "BARRIO LAUROETA (LOIU)",
       "_id": 222,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/87",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id222.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -6442,7 +6649,8 @@
       "HELDUERA/LLEGADA": "AVDA. DE LARRAKOETXE-DERIO (LOIU)",
       "_id": 223,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/88",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id223.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -6473,7 +6681,8 @@
       "HELDUERA/LLEGADA": "BAKIO",
       "_id": 224,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/89",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id224.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -6504,7 +6713,8 @@
       "HELDUERA/LLEGADA": "PLAYA ARMINTZA (LEMOIZ)",
       "_id": 225,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/90",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id225.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -6535,7 +6745,8 @@
       "HELDUERA/LLEGADA": "BARRIO UGARTE (LEMOIZ)",
       "_id": 226,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/91",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id226.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -6566,7 +6777,8 @@
       "HELDUERA/LLEGADA": "GORLIZ",
       "_id": 227,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/92",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id227.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -6597,7 +6809,8 @@
       "HELDUERA/LLEGADA": "GORLIZ",
       "_id": 228,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/93",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id228.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -6628,7 +6841,8 @@
       "HELDUERA/LLEGADA": "PLAZA DEL ASTILLERO (PLENTZIA)",
       "_id": 229,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/94",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id229.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -6659,7 +6873,8 @@
       "HELDUERA/LLEGADA": "BARRIKA",
       "_id": 230,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/95",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id230.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -6690,7 +6905,8 @@
       "HELDUERA/LLEGADA": "BERANGO",
       "_id": 231,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/96",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id231.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -6721,7 +6937,8 @@
       "HELDUERA/LLEGADA": "PLAYA ARRIATERA (SOPELA)",
       "_id": 232,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/97",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id232.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -6752,7 +6969,8 @@
       "HELDUERA/LLEGADA": "URDULIZ",
       "_id": 233,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/98",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id233.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -6783,7 +7001,8 @@
       "HELDUERA/LLEGADA": "LAUAXETA ENPARANTZA (LAUKIZ)",
       "_id": 234,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/99",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id234.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -6814,7 +7033,8 @@
       "HELDUERA/LLEGADA": "BARRIO GARAI (GATIKA)",
       "_id": 235,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/100",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id235.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -6845,7 +7065,8 @@
       "HELDUERA/LLEGADA": "MARURI-JATABE",
       "_id": 236,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/101",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id236.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "LINEAL",
@@ -6876,7 +7097,8 @@
       "HELDUERA/LLEGADA": "POLÍGONO INDUSTRIAL BELAKO (MUNGIA)",
       "_id": 237,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/102",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id237.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -6907,7 +7129,8 @@
       "HELDUERA/LLEGADA": "FRUIZ",
       "_id": 238,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/103",
-      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA"
+      "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id238.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -6939,7 +7162,7 @@
       "_id": 239,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/104",
       "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
-      "IMAGEN_CARTA":"/src/assets/Card-Image/Imagen_hiking_id239.png"
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id239.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -6971,7 +7194,7 @@
       "_id": 240,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/105",
       "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
-      "IMAGEN_CARTA":"/src/assets/Card-Image/Imagen_hiking_id240.png"
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id240.png"
     },
     {
       "IBILBIDEA/RECORRIDO": "CIRCULAR",
@@ -7003,7 +7226,7 @@
       "_id": 241,
       "URLA/URL": "https://web.bizkaia.eus/es/web/rutas-del-colesterol/ruta/-/ficha/106",
       "ZIRKUITOA_EU/CIRCUITO_EU": "KOLESTEROLAREN IBILBIDEA",
-      "IMAGEN_CARTA":"/src/assets/Card-Image/Imagen_hiking_id241.png"
+      "imagePath":"/src/assets/Card-Image/Imagen_hiking_id241.png"
     }
   ]
 }
