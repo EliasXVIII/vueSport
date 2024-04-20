@@ -86,6 +86,5 @@
 
 <script>
 export default {
-  // Your script logic goes here
 }
 </script>
