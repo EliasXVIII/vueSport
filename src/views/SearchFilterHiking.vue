@@ -36,13 +36,15 @@
 <script setup>
 import useRoutes from '../assets/composable/fetchHiker';
 import Card from '../components/ui/Card.vue';
-import { ref, computed } from 'vue';
+import { ref, computed, defineEmits,watch } from 'vue';
 // Reactive state for storing the complete route data
 const {routes}=useRoutes();
 
 // Reactive states for filters
 const filterDistance = ref('');
 const filterDifficulty = ref('');
+
+const emit=defineEmits(['filteredRoutes']);
 
 // Computed property to filter routes based on selected criteria
 const filteredRoutes = computed(() => {
@@ -53,6 +55,23 @@ const filteredRoutes = computed(() => {
   });
 });
 
+// Emit filtered route positions when filters are applied
+const applyFilters = () => {
+  const filteredPositions = filteredRoutes.value.map(route => ({
+    lat: route.latitude,
+    lng: route.longitude
+  }));
+  emit('filteredRoutes', filteredPositions);
+  console.log(filteredPositions)
+};
+
+// Watch for changes in filterDistance and filterDifficulty and apply filters
+watch([filterDistance, filterDifficulty], () => {
+  applyFilters();
+});
+
+// Call applyFilters initially to emit the event when the component is first rendered
+applyFilters();
 
 </script>
 

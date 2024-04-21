@@ -21,7 +21,8 @@
     <SearchFilterHiking/>
   </div>
   <div class="p-4">
-    <GoogleMap />
+    <GoogleMap :filteredPositions="filteredPositions" />
+
   </div>
 </div>
   
@@ -30,5 +31,9 @@
 <script setup>
 import GoogleMap from '../components/common/GoogleMap.vue';
 import SearchFilterHiking from './SearchFilterHiking.vue';
+import { ref } from 'vue';
+// Other imports
+
+const filteredPositions = ref([]);
 
 </script>
