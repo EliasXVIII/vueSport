@@ -1,89 +1,132 @@
+<template>
+  <div ref="mapElement" style="width: 60vh; height: 60vh;"></div>
+</template>
 
 <script setup>
-import { ref, reactive, watch } from 'vue';
-import { Loader } from '@googlemaps/js-api-loader';
-import { GoogleMap, Polyline } from 'vue3-google-map';
+import { onMounted, ref, provide, watch, defineProps } from 'vue';
+import { useEventBus } from '/src/assets/composable/useEventBus.js';
 
-const apiKey = 'AIzaSyAd9UGOF21EFsSHh0UwsqYPL22Mm5KPb6k';
-const loader = new Loader({
-  apiKey,
-  version: 'weekly',
-  libraries: ['places']
-});
+const mapElement = ref(null);
+const map = ref(null);
 
-// Reactive property to track if Google Maps API has been loaded
-const googleMapsLoaded = ref(false);
-
-const center = ref({ lat: 40.416775, lng: -3.703790 });
-const mapOptions = reactive({
-  disableDefaultUI: true,
-  zoomControl: true,
-  mapTypeId: 'terrain'
-});
-
-const allMarkers = reactive([
-  { position: { lat: 40.417080, lng: -3.703612 }, title: 'Marker 1', distance: 5, difficulty: 'easy' },
-  { position: { lat: 40.415392, lng: -3.707433 }, title: 'Marker 2', distance: 8, difficulty: 'medium' },
-  // ... more markers
-]);
-
-const filters = reactive({
-  distance: 10,
-  difficulty: 'easy'
-});
-
-const displayedMarkers = ref([]);
-
-const applyFilters = () => {
-  displayedMarkers.value = allMarkers.filter(marker => {
-    return marker.distance <= filters.distance && marker.difficulty === filters.difficulty;
+// Function to add markers for filtered routes
+const addMarkersForRoutes = (routes) => {
+  console.log('Adding markers for routes:', routes);
+  routes.forEach(route => {
+    console.log('Adding marker for route:', route);
+    new google.maps.Marker({
+      position: { lat: route.latitude, lng: route.longitude },
+      map: map.value,
+      title: route['IZENA/NOMBRE']
+    });
   });
 };
 
-watch(filters, (newFilters) => {
-  applyFilters();
+
+
+
+// Function to load the Google Maps API script
+const loadGoogleMapsScript = () => {
+  return new Promise((resolve, reject) => {
+    const existingScript = document.getElementById('googleMapsScript');
+    if (!existingScript) {
+      const script = document.createElement('script');
+      script.id = 'googleMapsScript';
+      script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyAd9UGOF21EFsSHh0UwsqYPL22Mm5KPb6k&callback=initMap`;
+      script.async = true;
+      script.defer = true;
+      script.onload = () => {
+        console.log('Google Maps script loaded successfully'); // Log script load success
+        resolve();
+      };
+      script.onerror = () => {
+        console.error('Failed to load Google Maps script'); // Log script load failure
+        reject(new Error('Failed to load Google Maps script'));
+      };
+      document.head.appendChild(script);
+    } else {
+      console.log('Google Maps script already exists'); // Log existing script
+      resolve();
+    }
+  });
+};
+
+// Initialize the map and marker after loading the script
+window.initMap = async () => {
+  console.log('Initializing map'); // Log map initialization
+  await loadGoogleMapsScript();
+  const { Map, Marker } = google.maps;
+  map.value = new Map(mapElement.value, {
+    zoom: 5,
+    center: { lat: 42.507095, lng: -2.361620 }, // Default center
+    mapId: 'DEMO_MAP_ID'
+  });
+
+  // Check if the Geolocation API is available in the browser
+  if ("geolocation" in navigator) {
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        // Create a marker for the current position
+        new Marker({
+          position: {
+            lat: position.coords.latitude,
+            lng: position.coords.longitude
+          },
+          map: map.value,
+          title: 'Your Current Location'
+        });
+
+        // Center the map on the current position
+        map.value.setCenter({
+          lat: position.coords.latitude,
+          lng: position.coords.longitude
+        });
+      },
+      (error) => {
+        console.error('Error getting current position:', error);
+      }
+    );
+  } else {
+    console.log('Geolocation is not supported by this browser.');
+  }
+};
+
+const { eventBus } = useEventBus();
+provide('eventBus', eventBus);
+
+onMounted(async () => {
+  try {
+    await loadGoogleMapsScript();
+    window.initMap = () => {
+      const { Map } = google.maps;
+      map.value = new Map(mapElement.value, {
+        zoom: 12,
+        center: { lat: 42.507095, lng: -2.361620 },
+        mapId: 'DEMO_MAP_ID'
+      });
+    };
+    window.initMap(); // Call initMap after the script is loaded and the component is mounted
+  } catch (error) {
+    console.error('Error initializing the map:', error);
+  }
+
+  eventBus.on('filteredRoutes', (positions) => {
+    addMarkersForRoutes(positions);
+  });
+});
+// Define filteredPositions prop with default value
+const { filteredPositions } = defineProps({
+  filteredPositions: {
+    type: Array,
+    default: () => []
+  }
 });
 
-
-loader.importLibrary().then(() => {
-  // Google Maps API is ready to use
-  applyFilters(); // Apply filters once the map is loaded
-  googleMapsLoaded.value = true; // Set the loading status to true
+// Watch for changes in filtered positions
+watch(filteredPositions, (newPositions) => {
+  addMarkersForRoutes(newPositions);
 });
 </script>
 
-
-<template>
-  <div class="mt-24 ml-24 sticky top-0">
-    <GoogleMap
-        api-key="AIzaSyAd9UGOF21EFsSHh0UwsqYPL22Mm5KPb6k"
-        style="width: 80%; height: 80vh "
-        mapTypeId="terrain"
-        :center="center"
-        :zoom="7"
-        class=""
-      >
-        <Polyline :options="hikingTrail" />
-      </GoogleMap>
-
-     <!-- Filters -->
-      <div>
-        <label for="distance">Distance (km):</label>
-        <input type="number" id="distance" v-model.number="filters.distance" />
-        <label for="difficulty">Difficulty:</label>
-        <select id="difficulty" v-model="filters.difficulty">
-          <option value="easy">Easy</option>
-          <option value="medium">Medium</option>
-          <option value="hard">Hard</option>
-        </select>
-        <button @click="applyFilters">Apply Filters</button>
-      </div>
-    
-  </div>
-  
-    
-  
-    
-</template>
 
 
