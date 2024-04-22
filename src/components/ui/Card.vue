@@ -7,9 +7,9 @@
       </a>
     </div>
     <div class="p-5">
-      <h5 class="mb-2 text-xl font-bold tracking-tight text-white dark:text-white">{{ title }}</h5>
-      <p class="text-sm font-semibold text-rose-500">Duration approximate: {{ duration }} Hs</p>
-      <p class="text-sm font-semibold text-rose-500">Distance: {{ distance }} Km</p>
+      <h5 class="mb-2 text-l font-bold tracking-tight text-white dark:text-white">{{ title }}</h5>
+      <p class="text-sm font-semibold text-pink-200">Duration approximate: {{ duration }} Hs</p>
+      <p class="text-sm font-semibold text-pink-200">Distance: {{ distance }} Km</p>
     </div>
   </div>
 </template>
