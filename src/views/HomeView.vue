@@ -1,7 +1,9 @@
 <template>
-  <div>
+  <div id="background">
     <Hero/>
     <MostRated/>
+    <br/>
+    <br/>
   </div>
 </template>
 
