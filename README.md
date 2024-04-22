@@ -69,7 +69,8 @@ https://www.opendatabizkaia.eus/es/catalogo/senderos <br>
 https://www.opendatabizkaia.eus/es/catalogo/sendas-ciclables
 
 ## initialize the project
- Clona el repositorio:
+ 
+Clone the repository:
  
   ```bash
    git clone https://github.com/EliasXVIII/vueSport.git
