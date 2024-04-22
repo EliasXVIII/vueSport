@@ -1,6 +1,6 @@
 
 <template>
-  <div class="max-w-sm bg-custom-oscuro border border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700 mt-12 mr-10%  shadow-lg shadow-rose-950 ">
+  <div id="fondo" class="max-w-sm bg-custom-oscuro border border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700 mt-12 mr-10%  shadow-lg shadow-rose-950 ">
     <div class="relative w-full h-0" style="padding-bottom: 100%;">
       <a target="_blank" :href="routeUrl">      
         <img :src="imagePath" alt="Hiking route" class="absolute inset-0 w-full h-full object-cover rounded-t-lg">
@@ -29,6 +29,11 @@ const props = defineProps({
 
 
 </script>
+<style scoped>
+#fondo{
+  background-color: #5A824E;
+}
+</style>
 
 
 
