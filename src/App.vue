@@ -23,7 +23,7 @@ import Footer from './components/ui/Footer.vue';
 
 <style scoped>
 #fondo{
-  background-color: #78966F;
+  background-color: #3F402B;
 }
 </style>
 

@@ -80,8 +80,8 @@ const unscaleElement = (imageRef) => {
 
 .cardhero__linea {
   width: 100%;
-  height: 1rem;
-  background-color: #5A824E;
+  height: 2rem;
+  background-color: #3F402B;
 }
 
 
