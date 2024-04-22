@@ -54,13 +54,14 @@ loader.importLibrary().then(() => {
 
 
 <template>
-    <div>
-      <GoogleMap
+  <div class="mt-24 ml-24 sticky top-0">
+    <GoogleMap
         api-key="AIzaSyAd9UGOF21EFsSHh0UwsqYPL22Mm5KPb6k"
-        style="width: 60%; height: 60vh"
+        style="width: 80%; height: 80vh "
         mapTypeId="terrain"
         :center="center"
         :zoom="7"
+        class=""
       >
         <Polyline :options="hikingTrail" />
       </GoogleMap>
@@ -77,5 +78,12 @@ loader.importLibrary().then(() => {
         </select>
         <button @click="applyFilters">Apply Filters</button>
       </div>
-    </div>
+    
+  </div>
+  
+    
+  
+    
 </template>
+
+
