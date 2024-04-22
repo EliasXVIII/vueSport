@@ -30,6 +30,7 @@
         width: 600px;
         height: 350px;
         overflow:hidden;
+        margin-bottom: 10rem;
     }
     button{
         position:absolute;

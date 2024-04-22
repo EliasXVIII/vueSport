@@ -1,6 +1,6 @@
 <!-- App.vue -->
 <template>
-  <div class="flex flex-col min-h-screen">
+  <div id="fondo" class="flex flex-col min-h-screen">
     <!-- Navbar con z-index alto -->
     <Navbar class="z-50" />
 
@@ -20,4 +20,10 @@ import Navbar from './components/ui/Navbar.vue';
 import Footer from './components/ui/Footer.vue';
 
 </script>
+
+<style scoped>
+#fondo{
+  background-color: #3F402B;
+}
+</style>
 

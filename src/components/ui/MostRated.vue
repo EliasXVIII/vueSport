@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-4 mt-12 bg-custom-green p-4 rounded-lg shadow-lg">
+  <div class="container  px-4 bg-custom-green p-12">
     <div class="flex flex-col md:flex-row items-stretch">
       <!-- Contenido principal -->
       <div class="w-full md:w-1/2 flex items-center justify-center mb-4 md:mb-0">
@@ -43,5 +43,7 @@ video {
 .bg-custom-green {
   background-color: #5A824E; /* Color de fondo personalizado */
 }
+
+
 </style>
 

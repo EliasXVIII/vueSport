@@ -68,6 +68,7 @@ export default {
 
 <style>
 .app {
+/*margin-top: -4rem;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -76,10 +77,12 @@ export default {
   width: 100%; /* Ancho del viewport */
   height: 100%; /* Alto del viewport */
   
-
+  /*border: 0.2rem solid red;*/
 }
+
 h1{
     padding: 3rem;
+    color: white;
 }
 
 
