@@ -36,7 +36,9 @@
         height: 40px;
         width: 50px;
         top: calc(50px - 20px);
-        background-color: rgb(1,0,0,0);
+        background-color: rgb(216, 205, 205);
+        border-radius: 70%;
+        border-radius: 70%;
         border:none;
         color:black;
     }

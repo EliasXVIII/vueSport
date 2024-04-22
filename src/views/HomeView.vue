@@ -2,6 +2,8 @@
   <div>
     <Hero/>
     <MostRated/>
+    <br/>
+    <br/>
   </div>
 </template>
 

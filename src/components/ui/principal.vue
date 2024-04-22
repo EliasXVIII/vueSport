@@ -1,5 +1,6 @@
 <template>
     <div class="app">
+        <h1 class="text-4xl font-bold text-center text-custom-green mt-5" style="font-family: 'Ubuntu', sans-serif;">Most Rated Routes</h1>
         <carousel @next="next" @prev="prev">
             <carouselslide
                 v-for="(slide, index) in slides"
@@ -29,12 +30,11 @@ export default {
         return {
             slides: [
             
-                '/src/assets/Card-Image/Imagen_Biking_id001.png',
-                '/src/assets/Card-Image/Imagen_Biking_id002.png',
-                '/src/assets/Card-Image/Imagen_Biking_id003.png',
-                '/src/assets/Card-Image/Imagen_Biking_id004.png',
-                '/src/assets/Card-Image/Imagen_Biking_id005.png',
-                '/src/assets/Card-Image/Imagen_Biking_id006.png',
+                '/src/assets/card slider/card1.png',
+                '/src/assets/card slider/card2.png',
+                '/src/assets/card slider/card3.png',
+                '/src/assets/card slider/card4.png',
+                
             ],
             visibleSlide: 0,
             direction: 'left'
@@ -68,7 +68,19 @@ export default {
 
 <style>
 .app {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  vertical-align: center;
+  width: 100%; /* Ancho del viewport */
+  height: 100%; /* Alto del viewport */
+  
+
 }
+h1{
+    padding: 3rem;
+}
+
+
 </style>

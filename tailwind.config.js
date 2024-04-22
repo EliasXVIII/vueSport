@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       backgroundColor: {
         'custom-gray': '#A6A485',
-        'custom-green': '#3F402B',
+        'custom-green': '#5A824E',
         'custom-oscuro' : '#3F402B'
         // Add your custom background color here
       },
