@@ -23,19 +23,19 @@ The group was organized and worked with agile methodologies, organizing the grou
 ## User view
 
 <p align="center">
-  <img src="https://github.com/EliasXVIII/vueSport/blob/dev/src/assets/Readme-Img/HomeReadme.png" alt="VueSport" style="margin: auto;">
+  <img src="https://github.com/EliasXVIII/vueSport/blob/dev/src/assets/Readme-Img/img01.png" alt="VueSport" style="margin: auto;">
 </p>
 <p align="center">
-  <img src="https://github.com/EliasXVIII/vueSport/blob/dev/src/assets/Readme-Img/FooterReadme.png" alt="VueSport" style="margin: auto;">
+  <img src="https://github.com/EliasXVIII/vueSport/blob/dev/src/assets/Readme-Img/img02.png" alt="VueSport" style="margin: auto;">
 </p>
 
 ### Biking view
 
 <p align="center">
-  <img src="https://github.com/EliasXVIII/vueSport/blob/dev/src/assets/Readme-Img/BikingReadme.png" alt="VueSport" style="margin: auto;">
+  <img src="https://github.com/EliasXVIII/vueSport/blob/dev/src/assets/Readme-Img/img03.png" alt="VueSport" style="margin: auto;">
 </p>
 <p align="center">
-  <img src="https://github.com/EliasXVIII/vueSport/blob/dev/src/assets/Readme-Img/BikingSearchReadme.png" alt="VueSport" style="margin: auto;">
+  <img src="https://github.com/EliasXVIII/vueSport/blob/dev/src/assets/Readme-Img/img05.png" alt="VueSport" style="margin: auto;">
 </p>
 
 ## Uses and characteristics 
@@ -66,7 +66,10 @@ The group was organized and worked with agile methodologies, organizing the grou
 ## API
 The json files are extracted from the following URLs to install a Json-Server <br>
 https://www.opendatabizkaia.eus/es/catalogo/senderos <br>
-https://www.opendatabizkaia.eus/es/catalogo/sendas-ciclables
+https://www.opendatabizkaia.eus/es/catalogo/sendas-ciclables <br>
+
+Google Maps API <br>
+https://console.cloud.google.com/google/maps-apis/api-list?hl=es&project=vuesport
 
 ## initialize the project
  
