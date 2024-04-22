@@ -66,7 +66,10 @@ The group was organized and worked with agile methodologies, organizing the grou
 ## API
 The json files are extracted from the following URLs to install a Json-Server <br>
 https://www.opendatabizkaia.eus/es/catalogo/senderos <br>
-https://www.opendatabizkaia.eus/es/catalogo/sendas-ciclables
+https://www.opendatabizkaia.eus/es/catalogo/sendas-ciclables <br>
+
+Google Maps API
+https://console.cloud.google.com/google/maps-apis/api-list?hl=es&project=vuesport
 
 ## initialize the project
  
