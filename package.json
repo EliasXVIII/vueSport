@@ -13,6 +13,10 @@
     "@fortawesome/free-regular-svg-icons": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/vue-fontawesome": "^3.0.6",
+<<<<<<< HEAD
+=======
+    "@googlemaps/js-api-loader": "^1.16.6",
+>>>>>>> e78915e9 (resolve conflicts of merge)
     "@types/googlemaps": "^3.43.3",
     "axios": "^1.6.8",
     "devextreme": "^23.2.5",

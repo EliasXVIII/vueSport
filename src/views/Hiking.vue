@@ -18,10 +18,11 @@
   <div class="grid grid-cols-2 gap-4">
   <div class="p-4">
     <!-- Filters for distance and difficulty -->
-    <SearchFilterHiking/>
+    <SearchFilterHiking :filteredPositions="filteredPositions"/>
   </div>
   <div class="p-4">
-    <GoogleMap />
+    <GoogleMap :filteredPositions="filteredPositions" />
+
   </div>
 </div>
   
@@ -29,15 +30,15 @@
 
 <script setup>
 import GoogleMap from '../components/common/GoogleMap.vue';
-import { ref } from 'vue';
 import SearchFilterHiking from './SearchFilterHiking.vue';
+import { ref } from 'vue';
+// Other imports
 
-// Define a reactive property to hold the selected route data
-const selectedRoute = ref(null);
+const filteredPositions = ref([]);
 
-// Function to handle route selection and show marker on the map
-const showMarkerOnMap = (route) => {
-  selectedRoute.value = route;
+// Method to update filtered positions
+const updateFilteredPositions = (newPositions) => {
+  filteredPositions.value = newPositions;
 };
 
 </script>

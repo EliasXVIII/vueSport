@@ -34,15 +34,24 @@
   </div>
 </template>
 <script setup>
+<<<<<<< HEAD
 import Card from '../components/ui/Card.vue';
 import { ref, computed, onMounted } from 'vue';
 // Reactive state for storing the complete route data
 const routes = ref([]);
+=======
+import useRoutes from '../assets/composable/fetchHiker';
+import Card from '../components/ui/Card.vue';
+import { ref, computed } from 'vue';
+// Reactive state for storing the complete route data
+const {routes} = useRoutes();
+>>>>>>> e78915e9 (resolve conflicts of merge)
 
 // Reactive states for filters
 const filterDistance = ref('');
 const filterDifficulty = ref('');
 
+<<<<<<< HEAD
 // Fetching route data from the server
 const fetchData = async () => {
   try {
@@ -55,6 +64,8 @@ const fetchData = async () => {
     console.error('There has been a problem with your fetch operation:', error);
   }
 };
+=======
+>>>>>>> e78915e9 (resolve conflicts of merge)
 
 // Computed property to filter routes based on selected criteria
 const filteredRoutes = computed(() => {
@@ -65,6 +76,9 @@ const filteredRoutes = computed(() => {
   });
 });
 
+<<<<<<< HEAD
 // Execute fetchData when the component is mounted
 onMounted(fetchData);
+=======
+>>>>>>> e78915e9 (resolve conflicts of merge)
 </script>

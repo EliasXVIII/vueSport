@@ -34,39 +34,51 @@
   </div>
 </template>
 <script setup>
+import useRoutes from '../assets/composable/fetchHiker';
 import Card from '../components/ui/Card.vue';
-import { ref, computed, onMounted } from 'vue';
+import { ref, computed, defineEmits,watch } from 'vue';
 // Reactive state for storing the complete route data
-const routes = ref([]);
+const {routes}=useRoutes();
 
 // Reactive states for filters
 const filterDistance = ref('');
 const filterDifficulty = ref('');
 
-// Fetching route data from the server
-const fetchData = async () => {
-  try {
-    const response = await fetch('http://localhost:3000/records_senderos');
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-    routes.value = await response.json();
-  } catch (error) {
-    console.error('There has been a problem with your fetch operation:', error);
-  }
-};
+const emit=defineEmits(['filteredRoutes']);
 
 // Computed property to filter routes based on selected criteria
-const filteredRoutes = computed(() => {
-  return routes.value.filter(route => {
-    const matchesDistance = filterDistance.value ? route['LUZERA (KM)/LONGITUD (KM)'] && route['LUZERA (KM)/LONGITUD (KM)'] <= filterDistance.value : true;
-    const matchesDifficulty = filterDifficulty.value ? route['ZAILTASUNA/DIFICULTAD'] && route['ZAILTASUNA/DIFICULTAD'].includes(filterDifficulty.value) : true;
-    return matchesDistance && matchesDifficulty;
+  const filteredRoutes = computed(() => {
+    return routes.value.filter(route => {
+      const matchesDistance = filterDistance.value ? route['LUZERA (KM)/LONGITUD (KM)'] && route['LUZERA (KM)/LONGITUD (KM)'] <= filterDistance.value : true;
+      const matchesDifficulty = filterDifficulty.value ? route['ZAILTASUNA/DIFICULTAD'] && route['ZAILTASUNA/DIFICULTAD'].includes(filterDifficulty.value) : true;
+      return matchesDistance && matchesDifficulty;
+    });
   });
+ 
+
+// Emit filtered route positions when filters are applied
+const applyFilters = () => {
+  console.log('Routes:', routes.value); // Check the initial routes data
+  console.log('Filter Distance:', filterDistance.value); // Check the filter distance value
+  console.log('Filter Difficulty:', filterDifficulty.value); // Check the filter difficulty value
+
+  const filteredPositions = filteredRoutes.value.map(route => ({
+    lat: route.latitude,
+    lng: route.longitude
+  }));
+  
+  console.log('Filtered Positions:', filteredPositions); // Check the filtered positions
+  emit('filteredRoutes', filteredPositions);
+};
+
+// Watch for changes in filterDistance and filterDifficulty and apply filters
+watch([filterDistance, filterDifficulty], () => {
+  applyFilters();
 });
 
-// Execute fetchData when the component is mounted
-onMounted(fetchData);
+// Call applyFilters initially to emit the event when the component is first rendered
+applyFilters();
+
 </script>
 
 <style scoped>
