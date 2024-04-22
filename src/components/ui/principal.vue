@@ -17,15 +17,18 @@
 <script>
 import Carousel from './carousel.vue';
 import Carouselslide from './carouserslide.vue';
+/*import Card from './Card.vue';*/
 
 export default {
     components: {
         Carousel,
         Carouselslide
+        
     },
     data() {
         return {
             slides: [
+            
                 '/src/assets/Card-Image/Imagen_Biking_id001.png',
                 '/src/assets/Card-Image/Imagen_Biking_id002.png',
                 '/src/assets/Card-Image/Imagen_Biking_id003.png',
