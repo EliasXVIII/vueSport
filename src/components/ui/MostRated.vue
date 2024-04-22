@@ -41,7 +41,7 @@ video {
 
 /* Definir el color de fondo personalizado */
 .bg-custom-green {
-  background-color: #5A824E; /* Color de fondo personalizado */
+  background-color: #78966F; /* Color de fondo personalizado */
 }
 
 
