@@ -68,7 +68,7 @@ The json files are extracted from the following URLs to install a Json-Server <b
 https://www.opendatabizkaia.eus/es/catalogo/senderos <br>
 https://www.opendatabizkaia.eus/es/catalogo/sendas-ciclables <br>
 
-Google Maps API
+Google Maps API <br>
 https://console.cloud.google.com/google/maps-apis/api-list?hl=es&project=vuesport
 
 ## initialize the project
