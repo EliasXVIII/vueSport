@@ -71,6 +71,13 @@ https://www.opendatabizkaia.eus/es/catalogo/sendas-ciclables <br>
 Google Maps API <br>
 https://console.cloud.google.com/google/maps-apis/api-list?hl=es&project=vuesport
 
+
+## Coments
+
+Cropped and edited images have been included in the project to be able to be provided in the results letters. A total of 241 images from the Hiking view and 14 from the Biking view have been saved in the src/assets/Card-Image folder.
+This has occurred since from the information provided by the Provincial Council of Bizkaia there are no images as such but it does provide a direct link to an explanatory PDF of each of the routes. In the PDFs that provide the cycle routes, they are not correctly directed and we have brought the resource from this other site. <br>
+https://gazteak.bizkaia.eus/es/-/bici-por-bizkaia
+
 ## initialize the project
  
 Clone the repository:
